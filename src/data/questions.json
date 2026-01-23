@@ -1,0 +1,1892 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2024-01-21",
+  "questions": [
+    {
+      "id": "fn-001",
+      "topic": "forces-newton",
+      "difficulty": 1,
+      "prompt": {
+        "en": "A force of 50 N acts on a stationary object with a mass of 10 kg. What is the acceleration of the object?",
+        "nl": "Een kracht van 50 N werkt op een stilstaand voorwerp met een massa van 10 kg. Wat is de versnelling van het voorwerp?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 5,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["m/s²", "m/s", "N", "kg"],
+      "correctUnit": "m/s²",
+      "hints": [
+        { "en": "Newton's second law relates force, mass, and acceleration.", "nl": "De tweede wet van Newton verbindt kracht, massa en versnelling." },
+        { "en": "The formula is F = m × a. Rearrange to find acceleration.", "nl": "De formule is F = m × a. Herschrijf om de versnelling te vinden." },
+        { "en": "Divide the force by the mass: a = F/m = 50/10", "nl": "Deel de kracht door de massa: a = F/m = 50/10" }
+      ],
+      "solutionSteps": [
+        { "en": "Identify the given values: F = 50 N, m = 10 kg", "nl": "Identificeer de gegeven waarden: F = 50 N, m = 10 kg" },
+        { "en": "Use Newton's second law: F = m × a", "nl": "Gebruik de tweede wet van Newton: F = m × a" },
+        { "en": "Rearrange to find acceleration: a = F / m", "nl": "Herschrijf om de versnelling te vinden: a = F / m" },
+        { "en": "Substitute: a = 50 N / 10 kg = 5 m/s²", "nl": "Invullen: a = 50 N / 10 kg = 5 m/s²" }
+      ],
+      "commonMistakes": [
+        { "en": "Multiplying instead of dividing (F × m instead of F/m)", "nl": "Vermenigvuldigen in plaats van delen (F × m in plaats van F/m)" },
+        { "en": "Forgetting to include the correct unit", "nl": "Vergeten de juiste eenheid te vermelden" },
+        { "en": "Confusing acceleration with velocity", "nl": "Versnelling verwarren met snelheid" }
+      ],
+      "dutchKeywords": ["kracht", "massa", "versnelling", "Newton"]
+    },
+    {
+      "id": "fn-002",
+      "topic": "forces-newton",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Which of Newton's laws states that an object at rest stays at rest unless acted upon by an external force?",
+        "nl": "Welke van Newtons wetten stelt dat een voorwerp in rust blijft tenzij er een externe kracht op werkt?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Newton's First Law (Law of Inertia)", "nl": "Newtons eerste wet (Traagheidswet)" },
+        { "en": "Newton's Second Law", "nl": "Newtons tweede wet" },
+        { "en": "Newton's Third Law", "nl": "Newtons derde wet" },
+        { "en": "Law of Conservation of Energy", "nl": "Wet van behoud van energie" }
+      ],
+      "correctAnswer": "Newton's First Law (Law of Inertia)",
+      "hints": [
+        { "en": "This law is about objects maintaining their state of motion.", "nl": "Deze wet gaat over voorwerpen die hun bewegingstoestand behouden." },
+        { "en": "It's also called the 'Law of Inertia'.", "nl": "Het wordt ook wel de 'Traagheidswet' genoemd." },
+        { "en": "It's the first of Newton's three laws of motion.", "nl": "Het is de eerste van Newtons drie bewegingswetten." }
+      ],
+      "solutionSteps": [
+        { "en": "Newton's First Law states: An object at rest stays at rest, and an object in motion stays in motion with constant velocity, unless acted upon by an external net force.", "nl": "Newtons eerste wet stelt: Een voorwerp in rust blijft in rust, en een bewegend voorwerp blijft bewegen met constante snelheid, tenzij er een externe nettokracht op werkt." },
+        { "en": "This is also known as the Law of Inertia.", "nl": "Dit staat ook bekend als de Traagheidswet." },
+        { "en": "Inertia is the resistance of an object to change its state of motion.", "nl": "Traagheid is de weerstand van een voorwerp om zijn bewegingstoestand te veranderen." }
+      ],
+      "commonMistakes": [
+        { "en": "Confusing with the second law (F = ma)", "nl": "Verwarren met de tweede wet (F = ma)" },
+        { "en": "Thinking only about stationary objects, forgetting moving objects also follow this law", "nl": "Alleen aan stilstaande voorwerpen denken, vergeten dat bewegende voorwerpen ook deze wet volgen" }
+      ],
+      "dutchKeywords": ["traagheid", "eerste wet", "rust", "beweging"]
+    },
+    {
+      "id": "fn-003",
+      "topic": "forces-newton",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A car with mass 1200 kg accelerates from 0 to 20 m/s in 8 seconds. What is the net force acting on the car?",
+        "nl": "Een auto met massa 1200 kg versnelt van 0 naar 20 m/s in 8 seconden. Wat is de nettokracht op de auto?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 3000,
+      "tolerance": { "absolute": 50 },
+      "unitOptions": ["N", "kg", "m/s²", "J"],
+      "correctUnit": "N",
+      "hints": [
+        { "en": "First calculate the acceleration using a = Δv / Δt.", "nl": "Bereken eerst de versnelling met a = Δv / Δt." },
+        { "en": "Then use F = m × a to find the force.", "nl": "Gebruik dan F = m × a om de kracht te vinden." },
+        { "en": "The acceleration is (20 - 0) / 8 = 2.5 m/s²", "nl": "De versnelling is (20 - 0) / 8 = 2,5 m/s²" }
+      ],
+      "solutionSteps": [
+        { "en": "Calculate acceleration: a = Δv / Δt = (20 - 0) / 8 = 2.5 m/s²", "nl": "Bereken de versnelling: a = Δv / Δt = (20 - 0) / 8 = 2,5 m/s²" },
+        { "en": "Apply Newton's second law: F = m × a", "nl": "Pas Newtons tweede wet toe: F = m × a" },
+        { "en": "Substitute values: F = 1200 kg × 2.5 m/s²", "nl": "Vul de waarden in: F = 1200 kg × 2,5 m/s²" },
+        { "en": "F = 3000 N", "nl": "F = 3000 N" }
+      ],
+      "commonMistakes": [
+        { "en": "Using initial velocity instead of change in velocity", "nl": "Beginsnelheid gebruiken in plaats van snelheidsverandering" },
+        { "en": "Forgetting to calculate acceleration first", "nl": "Vergeten eerst de versnelling te berekenen" },
+        { "en": "Using the wrong formula for acceleration", "nl": "De verkeerde formule voor versnelling gebruiken" }
+      ],
+      "dutchKeywords": ["auto", "versnellen", "nettokracht", "snelheidsverandering"]
+    },
+    {
+      "id": "fn-004",
+      "topic": "forces-newton",
+      "difficulty": 2,
+      "prompt": {
+        "en": "Two forces act on an object: 30 N to the right and 12 N to the left. What is the magnitude of the net force?",
+        "nl": "Twee krachten werken op een voorwerp: 30 N naar rechts en 12 N naar links. Wat is de grootte van de nettokracht?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 18,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["N", "kg", "m/s", "J"],
+      "correctUnit": "N",
+      "hints": [
+        { "en": "Forces in opposite directions subtract from each other.", "nl": "Krachten in tegengestelde richtingen trekken van elkaar af." },
+        { "en": "The net force is the vector sum of all forces.", "nl": "De nettokracht is de vectorsom van alle krachten." },
+        { "en": "Subtract the smaller force from the larger one.", "nl": "Trek de kleinere kracht af van de grotere." }
+      ],
+      "solutionSteps": [
+        { "en": "Identify forces: F₁ = 30 N (right), F₂ = 12 N (left)", "nl": "Identificeer de krachten: F₁ = 30 N (rechts), F₂ = 12 N (links)" },
+        { "en": "Since they are in opposite directions, subtract: F_net = F₁ - F₂", "nl": "Omdat ze in tegengestelde richtingen zijn, aftrekken: F_net = F₁ - F₂" },
+        { "en": "F_net = 30 N - 12 N = 18 N", "nl": "F_net = 30 N - 12 N = 18 N" },
+        { "en": "The net force is 18 N to the right", "nl": "De nettokracht is 18 N naar rechts" }
+      ],
+      "commonMistakes": [
+        { "en": "Adding the forces instead of subtracting", "nl": "De krachten optellen in plaats van aftrekken" },
+        { "en": "Forgetting the direction of the net force", "nl": "De richting van de nettokracht vergeten" },
+        { "en": "Not recognizing that opposite forces subtract", "nl": "Niet herkennen dat tegengestelde krachten aftrekken" }
+      ],
+      "dutchKeywords": ["resultante", "nettokracht", "tegengesteld", "vectorsom"]
+    },
+    {
+      "id": "fn-005",
+      "topic": "forces-newton",
+      "difficulty": 1,
+      "prompt": {
+        "en": "What is the gravitational force (weight) of a 5 kg object on Earth? Use g = 10 m/s².",
+        "nl": "Wat is de zwaartekracht (gewicht) van een voorwerp van 5 kg op aarde? Gebruik g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 50,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["N", "kg", "m/s²", "J"],
+      "correctUnit": "N",
+      "hints": [
+        { "en": "Weight is a force caused by gravity.", "nl": "Gewicht is een kracht veroorzaakt door zwaartekracht." },
+        { "en": "Use the formula: Weight = mass × gravitational acceleration", "nl": "Gebruik de formule: Gewicht = massa × valversnelling" },
+        { "en": "W = m × g = 5 × 10", "nl": "F_z = m × g = 5 × 10" }
+      ],
+      "solutionSteps": [
+        { "en": "Weight is the gravitational force: W = m × g", "nl": "Gewicht is de zwaartekracht: F_z = m × g" },
+        { "en": "Given: m = 5 kg, g = 10 m/s²", "nl": "Gegeven: m = 5 kg, g = 10 m/s²" },
+        { "en": "W = 5 kg × 10 m/s² = 50 N", "nl": "F_z = 5 kg × 10 m/s² = 50 N" },
+        { "en": "The weight is 50 Newtons", "nl": "Het gewicht is 50 Newton" }
+      ],
+      "commonMistakes": [
+        { "en": "Confusing mass (kg) with weight (N)", "nl": "Massa (kg) verwarren met gewicht (N)" },
+        { "en": "Forgetting that weight is a force measured in Newtons", "nl": "Vergeten dat gewicht een kracht is gemeten in Newton" },
+        { "en": "Using g = 9.8 instead of g = 10 as given", "nl": "g = 9,8 gebruiken in plaats van g = 10 zoals gegeven" }
+      ],
+      "dutchKeywords": ["gewicht", "zwaartekracht", "massa", "valversnelling"]
+    },
+    {
+      "id": "fn-006",
+      "topic": "forces-newton",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A book lies on a table. According to Newton's third law, if the book pushes down on the table with 15 N, what force does the table exert on the book?",
+        "nl": "Een boek ligt op een tafel. Volgens Newtons derde wet, als het boek met 15 N op de tafel drukt, welke kracht oefent de tafel dan uit op het boek?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 15,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["N", "kg", "m/s²", "J"],
+      "correctUnit": "N",
+      "hints": [
+        { "en": "Newton's third law: Every action has an equal and opposite reaction.", "nl": "Newtons derde wet: Elke actie heeft een gelijke en tegengestelde reactie." },
+        { "en": "The reaction force has the same magnitude.", "nl": "De reactiekracht heeft dezelfde grootte." },
+        { "en": "The forces are equal in size but opposite in direction.", "nl": "De krachten zijn gelijk in grootte maar tegengesteld in richting." }
+      ],
+      "solutionSteps": [
+        { "en": "Newton's Third Law: For every action, there is an equal and opposite reaction.", "nl": "Newtons derde wet: Bij elke actie hoort een gelijke en tegengestelde reactie." },
+        { "en": "The book pushes down on the table with 15 N (action).", "nl": "Het boek drukt met 15 N op de tafel (actie)." },
+        { "en": "The table pushes up on the book with 15 N (reaction).", "nl": "De tafel duwt met 15 N omhoog tegen het boek (reactie)." },
+        { "en": "The magnitude is the same: 15 N (upward)", "nl": "De grootte is gelijk: 15 N (omhoog)" }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking the reaction force is smaller or larger", "nl": "Denken dat de reactiekracht kleiner of groter is" },
+        { "en": "Confusing with gravitational force", "nl": "Verwarren met zwaartekracht" },
+        { "en": "Not recognizing action-reaction pairs", "nl": "Actie-reactie paren niet herkennen" }
+      ],
+      "dutchKeywords": ["actie", "reactie", "derde wet", "normaalkracht"]
+    },
+    {
+      "id": "fn-007",
+      "topic": "forces-newton",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A 2 kg block is pushed across a floor with a force of 20 N. If the friction force is 8 N, what is the acceleration?",
+        "nl": "Een blok van 2 kg wordt over de vloer geduwd met een kracht van 20 N. Als de wrijvingskracht 8 N is, wat is dan de versnelling?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 6,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["m/s²", "m/s", "N", "kg"],
+      "correctUnit": "m/s²",
+      "hints": [
+        { "en": "First find the net force by subtracting friction from the applied force.", "nl": "Vind eerst de nettokracht door de wrijving van de uitgeoefende kracht af te trekken." },
+        { "en": "Net force = Applied force - Friction force", "nl": "Nettokracht = Uitgeoefende kracht - Wrijvingskracht" },
+        { "en": "Then use F = ma to find acceleration.", "nl": "Gebruik dan F = ma om de versnelling te vinden." }
+      ],
+      "solutionSteps": [
+        { "en": "Calculate net force: F_net = F_applied - F_friction", "nl": "Bereken de nettokracht: F_net = F_uitgeoefend - F_wrijving" },
+        { "en": "F_net = 20 N - 8 N = 12 N", "nl": "F_net = 20 N - 8 N = 12 N" },
+        { "en": "Apply Newton's second law: a = F_net / m", "nl": "Pas Newtons tweede wet toe: a = F_net / m" },
+        { "en": "a = 12 N / 2 kg = 6 m/s²", "nl": "a = 12 N / 2 kg = 6 m/s²" }
+      ],
+      "commonMistakes": [
+        { "en": "Using total applied force without subtracting friction", "nl": "De totale uitgeoefende kracht gebruiken zonder de wrijving af te trekken" },
+        { "en": "Adding friction instead of subtracting", "nl": "Wrijving optellen in plaats van aftrekken" },
+        { "en": "Forgetting that friction opposes motion", "nl": "Vergeten dat wrijving de beweging tegenwerkt" }
+      ],
+      "dutchKeywords": ["wrijving", "wrijvingskracht", "nettokracht", "versnelling"]
+    },
+    {
+      "id": "fn-008",
+      "topic": "forces-newton",
+      "difficulty": 3,
+      "prompt": {
+        "en": "An object moves at constant velocity. What can you conclude about the net force?",
+        "nl": "Een voorwerp beweegt met constante snelheid. Wat kun je concluderen over de nettokracht?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "The net force is zero", "nl": "De nettokracht is nul" },
+        { "en": "The net force equals the object's weight", "nl": "De nettokracht is gelijk aan het gewicht van het voorwerp" },
+        { "en": "The net force is in the direction of motion", "nl": "De nettokracht is in de richting van de beweging" },
+        { "en": "The net force is increasing", "nl": "De nettokracht neemt toe" }
+      ],
+      "correctAnswer": "The net force is zero",
+      "hints": [
+        { "en": "Constant velocity means no acceleration.", "nl": "Constante snelheid betekent geen versnelling." },
+        { "en": "What does Newton's first law say about constant motion?", "nl": "Wat zegt Newtons eerste wet over constante beweging?" },
+        { "en": "If a = 0, what does F = ma tell us about F?", "nl": "Als a = 0, wat zegt F = ma ons dan over F?" }
+      ],
+      "solutionSteps": [
+        { "en": "Constant velocity means velocity is not changing.", "nl": "Constante snelheid betekent dat de snelheid niet verandert." },
+        { "en": "No change in velocity means acceleration = 0.", "nl": "Geen verandering in snelheid betekent versnelling = 0." },
+        { "en": "From F = ma: if a = 0, then F_net = m × 0 = 0", "nl": "Uit F = ma: als a = 0, dan F_net = m × 0 = 0" },
+        { "en": "This confirms Newton's First Law: no net force means constant velocity.", "nl": "Dit bevestigt Newtons eerste wet: geen nettokracht betekent constante snelheid." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking a force is needed to maintain motion", "nl": "Denken dat er een kracht nodig is om beweging te behouden" },
+        { "en": "Confusing velocity with acceleration", "nl": "Snelheid verwarren met versnelling" },
+        { "en": "Thinking constant velocity requires constant force", "nl": "Denken dat constante snelheid een constante kracht vereist" }
+      ],
+      "dutchKeywords": ["constante snelheid", "eenparige beweging", "evenwicht"]
+    },
+    {
+      "id": "fn-009",
+      "topic": "forces-newton",
+      "difficulty": 2,
+      "prompt": {
+        "en": "What happens to the acceleration if you double the force on an object while keeping mass constant?",
+        "nl": "Wat gebeurt er met de versnelling als je de kracht op een voorwerp verdubbelt terwijl de massa constant blijft?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Acceleration doubles", "nl": "De versnelling verdubbelt" },
+        { "en": "Acceleration stays the same", "nl": "De versnelling blijft gelijk" },
+        { "en": "Acceleration is halved", "nl": "De versnelling halveert" },
+        { "en": "Acceleration quadruples", "nl": "De versnelling verviervoudigt" }
+      ],
+      "correctAnswer": "Acceleration doubles",
+      "hints": [
+        { "en": "Look at the formula F = ma.", "nl": "Kijk naar de formule F = ma." },
+        { "en": "If m is constant, how does a relate to F?", "nl": "Als m constant is, hoe verhoudt a zich dan tot F?" },
+        { "en": "Acceleration is directly proportional to force.", "nl": "Versnelling is recht evenredig met kracht." }
+      ],
+      "solutionSteps": [
+        { "en": "From F = ma, we get a = F/m", "nl": "Uit F = ma krijgen we a = F/m" },
+        { "en": "If mass m is constant, acceleration a is directly proportional to force F.", "nl": "Als massa m constant is, is versnelling a recht evenredig met kracht F." },
+        { "en": "Doubling F means: a_new = 2F/m = 2 × (F/m) = 2a", "nl": "F verdubbelen betekent: a_nieuw = 2F/m = 2 × (F/m) = 2a" },
+        { "en": "The acceleration doubles.", "nl": "De versnelling verdubbelt." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking force and acceleration are inversely proportional", "nl": "Denken dat kracht en versnelling omgekeerd evenredig zijn" },
+        { "en": "Confusing this relationship with mass-acceleration relationship", "nl": "Deze relatie verwarren met de massa-versnelling relatie" }
+      ],
+      "dutchKeywords": ["evenredig", "verdubbelen", "directe relatie"]
+    },
+    {
+      "id": "fn-010",
+      "topic": "forces-newton",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A 70 kg person stands in an elevator accelerating upward at 2 m/s². What is the normal force from the floor? Use g = 10 m/s².",
+        "nl": "Een persoon van 70 kg staat in een lift die met 2 m/s² omhoog versnelt. Wat is de normaalkracht van de vloer? Gebruik g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 840,
+      "tolerance": { "absolute": 10 },
+      "unitOptions": ["N", "kg", "m/s²", "J"],
+      "correctUnit": "N",
+      "hints": [
+        { "en": "Draw a free body diagram: normal force up, weight down.", "nl": "Teken een krachtenschema: normaalkracht omhoog, gewicht omlaag." },
+        { "en": "Net force causes the upward acceleration: F_net = ma", "nl": "De nettokracht veroorzaakt de versnelling omhoog: F_net = ma" },
+        { "en": "Normal force must exceed weight to accelerate upward.", "nl": "De normaalkracht moet groter zijn dan het gewicht om omhoog te versnellen." }
+      ],
+      "solutionSteps": [
+        { "en": "Weight: W = mg = 70 × 10 = 700 N (downward)", "nl": "Gewicht: F_z = mg = 70 × 10 = 700 N (omlaag)" },
+        { "en": "Net force needed for acceleration: F_net = ma = 70 × 2 = 140 N (upward)", "nl": "Benodigde nettokracht voor versnelling: F_net = ma = 70 × 2 = 140 N (omhoog)" },
+        { "en": "Normal force equation: N - W = F_net", "nl": "Normaalkracht vergelijking: F_n - F_z = F_net" },
+        { "en": "N = W + F_net = 700 + 140 = 840 N", "nl": "F_n = F_z + F_net = 700 + 140 = 840 N" }
+      ],
+      "commonMistakes": [
+        { "en": "Using only the weight without considering acceleration", "nl": "Alleen het gewicht gebruiken zonder rekening te houden met versnelling" },
+        { "en": "Subtracting instead of adding for upward acceleration", "nl": "Aftrekken in plaats van optellen bij versnelling omhoog" },
+        { "en": "Forgetting that normal force differs from weight when accelerating", "nl": "Vergeten dat de normaalkracht verschilt van het gewicht bij versnelling" }
+      ],
+      "dutchKeywords": ["lift", "normaalkracht", "schijnbaar gewicht"]
+    },
+    {
+      "id": "ew-001",
+      "topic": "energy-work",
+      "difficulty": 1,
+      "prompt": {
+        "en": "A force of 100 N moves an object 5 meters in the direction of the force. How much work is done?",
+        "nl": "Een kracht van 100 N verplaatst een voorwerp 5 meter in de richting van de kracht. Hoeveel arbeid wordt er verricht?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 500,
+      "tolerance": { "absolute": 1 },
+      "unitOptions": ["J", "N", "W", "kg"],
+      "correctUnit": "J",
+      "hints": [
+        { "en": "Work is done when a force moves an object.", "nl": "Arbeid wordt verricht wanneer een kracht een voorwerp verplaatst." },
+        { "en": "Use the formula: Work = Force × Distance", "nl": "Gebruik de formule: Arbeid = Kracht × Afstand" },
+        { "en": "W = F × d = 100 × 5", "nl": "W = F × d = 100 × 5" }
+      ],
+      "solutionSteps": [
+        { "en": "Given: F = 100 N, d = 5 m", "nl": "Gegeven: F = 100 N, d = 5 m" },
+        { "en": "Work formula: W = F × d (when force is in direction of motion)", "nl": "Arbeid formule: W = F × d (wanneer de kracht in de richting van de beweging is)" },
+        { "en": "W = 100 N × 5 m = 500 J", "nl": "W = 100 N × 5 m = 500 J" },
+        { "en": "The work done is 500 Joules", "nl": "De verrichte arbeid is 500 Joule" }
+      ],
+      "commonMistakes": [
+        { "en": "Dividing instead of multiplying", "nl": "Delen in plaats van vermenigvuldigen" },
+        { "en": "Using the wrong unit (N instead of J)", "nl": "De verkeerde eenheid gebruiken (N in plaats van J)" },
+        { "en": "Forgetting that work is measured in Joules", "nl": "Vergeten dat arbeid wordt gemeten in Joule" }
+      ],
+      "dutchKeywords": ["arbeid", "kracht", "verplaatsing", "joule"]
+    },
+    {
+      "id": "ew-002",
+      "topic": "energy-work",
+      "difficulty": 1,
+      "prompt": {
+        "en": "What is the kinetic energy of a 4 kg object moving at 5 m/s?",
+        "nl": "Wat is de kinetische energie van een voorwerp van 4 kg dat beweegt met 5 m/s?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 50,
+      "tolerance": { "absolute": 0.5 },
+      "unitOptions": ["J", "N", "W", "kg·m/s"],
+      "correctUnit": "J",
+      "hints": [
+        { "en": "Kinetic energy depends on mass and velocity.", "nl": "Kinetische energie hangt af van massa en snelheid." },
+        { "en": "Use the formula: Ek = ½mv²", "nl": "Gebruik de formule: E_k = ½mv²" },
+        { "en": "Ek = ½ × 4 × 5²", "nl": "E_k = ½ × 4 × 5²" }
+      ],
+      "solutionSteps": [
+        { "en": "Given: m = 4 kg, v = 5 m/s", "nl": "Gegeven: m = 4 kg, v = 5 m/s" },
+        { "en": "Kinetic energy formula: Ek = ½mv²", "nl": "Kinetische energie formule: E_k = ½mv²" },
+        { "en": "Ek = ½ × 4 kg × (5 m/s)²", "nl": "E_k = ½ × 4 kg × (5 m/s)²" },
+        { "en": "Ek = ½ × 4 × 25 = 50 J", "nl": "E_k = ½ × 4 × 25 = 50 J" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to square the velocity", "nl": "Vergeten de snelheid te kwadrateren" },
+        { "en": "Forgetting the ½ factor", "nl": "De factor ½ vergeten" },
+        { "en": "Squaring the mass instead of velocity", "nl": "De massa kwadrateren in plaats van de snelheid" }
+      ],
+      "dutchKeywords": ["kinetische energie", "bewegingsenergie", "snelheid"]
+    },
+    {
+      "id": "ew-003",
+      "topic": "energy-work",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A 2 kg ball is lifted to a height of 10 m. What is its gravitational potential energy? Use g = 10 m/s².",
+        "nl": "Een bal van 2 kg wordt opgetild tot een hoogte van 10 m. Wat is de zwaarte-energie? Gebruik g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 200,
+      "tolerance": { "absolute": 1 },
+      "unitOptions": ["J", "N", "W", "m"],
+      "correctUnit": "J",
+      "hints": [
+        { "en": "Potential energy depends on mass, gravity, and height.", "nl": "Potentiële energie hangt af van massa, zwaartekracht en hoogte." },
+        { "en": "Use the formula: Ep = mgh", "nl": "Gebruik de formule: E_p = mgh" },
+        { "en": "Ep = 2 × 10 × 10", "nl": "E_p = 2 × 10 × 10" }
+      ],
+      "solutionSteps": [
+        { "en": "Given: m = 2 kg, g = 10 m/s², h = 10 m", "nl": "Gegeven: m = 2 kg, g = 10 m/s², h = 10 m" },
+        { "en": "Gravitational potential energy formula: Ep = mgh", "nl": "Zwaarte-energie formule: E_p = mgh" },
+        { "en": "Ep = 2 kg × 10 m/s² × 10 m", "nl": "E_p = 2 kg × 10 m/s² × 10 m" },
+        { "en": "Ep = 200 J", "nl": "E_p = 200 J" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting one of the three factors", "nl": "Een van de drie factoren vergeten" },
+        { "en": "Using height in centimeters instead of meters", "nl": "Hoogte in centimeters gebruiken in plaats van meters" },
+        { "en": "Confusing with kinetic energy formula", "nl": "Verwarren met de formule voor kinetische energie" }
+      ],
+      "dutchKeywords": ["zwaarte-energie", "potentiële energie", "hoogte", "gravitatie"]
+    },
+    {
+      "id": "ew-004",
+      "topic": "energy-work",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A 500 g ball is dropped from 8 m height. What is its speed just before hitting the ground? Use g = 10 m/s². Ignore air resistance.",
+        "nl": "Een bal van 500 g valt van 8 m hoogte. Wat is de snelheid net voordat hij de grond raakt? Gebruik g = 10 m/s². Verwaarloosde luchtweerstand."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 12.65,
+      "tolerance": { "relative": 0.05 },
+      "unitOptions": ["m/s", "m/s²", "J", "N"],
+      "correctUnit": "m/s",
+      "hints": [
+        { "en": "Use conservation of energy: all potential energy converts to kinetic.", "nl": "Gebruik behoud van energie: alle potentiële energie wordt omgezet in kinetische energie." },
+        { "en": "mgh = ½mv² → the mass cancels out!", "nl": "mgh = ½mv² → de massa valt weg!" },
+        { "en": "v = √(2gh)", "nl": "v = √(2gh)" }
+      ],
+      "solutionSteps": [
+        { "en": "Apply conservation of energy: Ep = Ek", "nl": "Pas behoud van energie toe: E_p = E_k" },
+        { "en": "mgh = ½mv² → mass cancels: gh = ½v²", "nl": "mgh = ½mv² → massa valt weg: gh = ½v²" },
+        { "en": "Rearrange: v = √(2gh)", "nl": "Herschrijf: v = √(2gh)" },
+        { "en": "v = √(2 × 10 × 8) = √160 ≈ 12.65 m/s", "nl": "v = √(2 × 10 × 8) = √160 ≈ 12,65 m/s" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to take the square root", "nl": "Vergeten de wortel te nemen" },
+        { "en": "Not converting grams to kilograms (though it cancels here)", "nl": "Gram niet omrekenen naar kilogram (hoewel het hier wegvalt)" },
+        { "en": "Using v = √(gh) instead of v = √(2gh)", "nl": "v = √(gh) gebruiken in plaats van v = √(2gh)" }
+      ],
+      "dutchKeywords": ["vallen", "vrije val", "energiebehoud"]
+    },
+    {
+      "id": "ew-005",
+      "topic": "energy-work",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Which type of energy does a stretched spring have?",
+        "nl": "Welk type energie heeft een uitgerekte veer?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Elastic potential energy", "nl": "Elastische potentiële energie" },
+        { "en": "Kinetic energy", "nl": "Kinetische energie" },
+        { "en": "Gravitational potential energy", "nl": "Zwaarte-energie" },
+        { "en": "Thermal energy", "nl": "Warmte-energie" }
+      ],
+      "correctAnswer": "Elastic potential energy",
+      "hints": [
+        { "en": "Springs store energy when deformed.", "nl": "Veren slaan energie op wanneer ze vervormd worden." },
+        { "en": "This is related to the spring's ability to return to its original shape.", "nl": "Dit heeft te maken met het vermogen van de veer om terug te keren naar zijn oorspronkelijke vorm." },
+        { "en": "It's a type of potential energy stored in elastic materials.", "nl": "Het is een soort potentiële energie opgeslagen in elastische materialen." }
+      ],
+      "solutionSteps": [
+        { "en": "When a spring is stretched or compressed, work is done on it.", "nl": "Wanneer een veer wordt uitgerekt of samengedrukt, wordt er arbeid op verricht." },
+        { "en": "This work is stored as elastic potential energy.", "nl": "Deze arbeid wordt opgeslagen als elastische potentiële energie." },
+        { "en": "The spring can release this energy when it returns to its natural length.", "nl": "De veer kan deze energie vrijgeven wanneer hij terugkeert naar zijn natuurlijke lengte." },
+        { "en": "Formula: Ee = ½kx² (where k is spring constant, x is displacement)", "nl": "Formule: E_v = ½kx² (waarbij k de veerconstante is en x de uitrekking)" }
+      ],
+      "commonMistakes": [
+        { "en": "Confusing with gravitational potential energy", "nl": "Verwarren met zwaarte-energie" },
+        { "en": "Thinking moving springs have only kinetic energy", "nl": "Denken dat bewegende veren alleen kinetische energie hebben" }
+      ],
+      "dutchKeywords": ["elastische energie", "veer", "veerenergie", "vervorming"]
+    },
+    {
+      "id": "ew-006",
+      "topic": "energy-work",
+      "difficulty": 2,
+      "prompt": {
+        "en": "If you double the speed of an object, by what factor does its kinetic energy increase?",
+        "nl": "Met welke factor neemt de kinetische energie toe als je de snelheid van een voorwerp verdubbelt?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "4 times", "nl": "4 keer" },
+        { "en": "2 times", "nl": "2 keer" },
+        { "en": "8 times", "nl": "8 keer" },
+        { "en": "16 times", "nl": "16 keer" }
+      ],
+      "correctAnswer": "4 times",
+      "hints": [
+        { "en": "Look at the kinetic energy formula: Ek = ½mv²", "nl": "Kijk naar de formule voor kinetische energie: E_k = ½mv²" },
+        { "en": "What happens when you replace v with 2v?", "nl": "Wat gebeurt er als je v vervangt door 2v?" },
+        { "en": "The velocity is squared in the formula.", "nl": "De snelheid wordt gekwadrateerd in de formule." }
+      ],
+      "solutionSteps": [
+        { "en": "Kinetic energy: Ek = ½mv²", "nl": "Kinetische energie: E_k = ½mv²" },
+        { "en": "If v → 2v, then Ek_new = ½m(2v)² = ½m × 4v² = 4 × (½mv²)", "nl": "Als v → 2v, dan E_k_nieuw = ½m(2v)² = ½m × 4v² = 4 × (½mv²)" },
+        { "en": "Ek_new = 4 × Ek", "nl": "E_k_nieuw = 4 × E_k" },
+        { "en": "The kinetic energy increases by a factor of 4", "nl": "De kinetische energie neemt toe met een factor 4" }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking energy doubles when speed doubles", "nl": "Denken dat energie verdubbelt wanneer snelheid verdubbelt" },
+        { "en": "Not remembering the velocity is squared", "nl": "Vergeten dat de snelheid wordt gekwadrateerd" }
+      ],
+      "dutchKeywords": ["verdubbelen", "kwadratisch", "snelheid"]
+    },
+    {
+      "id": "ew-007",
+      "topic": "energy-work",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A roller coaster car (800 kg) starts at rest at 25 m height. What is its speed at 10 m height? Use g = 10 m/s². Ignore friction.",
+        "nl": "Een achtbaanwagentje (800 kg) start in rust op 25 m hoogte. Wat is de snelheid op 10 m hoogte? Gebruik g = 10 m/s². Verwaarloosde wrijving."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 17.32,
+      "tolerance": { "relative": 0.05 },
+      "unitOptions": ["m/s", "J", "m", "N"],
+      "correctUnit": "m/s",
+      "hints": [
+        { "en": "Use conservation of energy: Ep_initial = Ep_final + Ek_final", "nl": "Gebruik behoud van energie: E_p_begin = E_p_eind + E_k_eind" },
+        { "en": "The height difference is what matters.", "nl": "Het hoogteverschil is wat telt." },
+        { "en": "v = √(2g × height difference)", "nl": "v = √(2g × hoogteverschil)" }
+      ],
+      "solutionSteps": [
+        { "en": "Energy at top: E₁ = mgh₁ = 800 × 10 × 25 = 200,000 J", "nl": "Energie bovenaan: E₁ = mgh₁ = 800 × 10 × 25 = 200.000 J" },
+        { "en": "At 10 m: Ep = mgh₂ = 800 × 10 × 10 = 80,000 J", "nl": "Op 10 m: E_p = mgh₂ = 800 × 10 × 10 = 80.000 J" },
+        { "en": "Kinetic energy at 10 m: Ek = E₁ - Ep = 200,000 - 80,000 = 120,000 J", "nl": "Kinetische energie op 10 m: E_k = E₁ - E_p = 200.000 - 80.000 = 120.000 J" },
+        { "en": "Using Ek = ½mv²: v = √(2Ek/m) = √(2 × 120,000/800) = √300 ≈ 17.32 m/s", "nl": "Met E_k = ½mv²: v = √(2E_k/m) = √(2 × 120.000/800) = √300 ≈ 17,32 m/s" }
+      ],
+      "commonMistakes": [
+        { "en": "Using total height instead of height difference", "nl": "De totale hoogte gebruiken in plaats van het hoogteverschil" },
+        { "en": "Forgetting that the car has potential energy at 10 m too", "nl": "Vergeten dat het wagentje ook potentiële energie heeft op 10 m" },
+        { "en": "Not accounting for the mass in the calculation", "nl": "Geen rekening houden met de massa in de berekening" }
+      ],
+      "dutchKeywords": ["achtbaan", "hoogteverschil", "energiebehoud"]
+    },
+    {
+      "id": "ew-008",
+      "topic": "energy-work",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Which statement about work is correct?",
+        "nl": "Welke bewering over arbeid is juist?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Work is done only when a force causes displacement", "nl": "Arbeid wordt alleen verricht wanneer een kracht verplaatsing veroorzaakt" },
+        { "en": "Holding a heavy box is doing work", "nl": "Een zware doos vasthouden is arbeid verrichten" },
+        { "en": "Work is measured in Watts", "nl": "Arbeid wordt gemeten in Watt" },
+        { "en": "Work can only be positive", "nl": "Arbeid kan alleen positief zijn" }
+      ],
+      "correctAnswer": "Work is done only when a force causes displacement",
+      "hints": [
+        { "en": "Think about the definition of work in physics.", "nl": "Denk aan de definitie van arbeid in de natuurkunde." },
+        { "en": "What is needed for work to be done?", "nl": "Wat is nodig om arbeid te verrichten?" },
+        { "en": "W = F × d requires both force AND displacement.", "nl": "W = F × d vereist zowel kracht ALS verplaatsing." }
+      ],
+      "solutionSteps": [
+        { "en": "Work = Force × Displacement (W = F × d)", "nl": "Arbeid = Kracht × Verplaatsing (W = F × d)" },
+        { "en": "For work to be done, there must be displacement in the direction of force.", "nl": "Om arbeid te verrichten moet er verplaatsing zijn in de richting van de kracht." },
+        { "en": "Holding a box stationary means d = 0, so W = 0 (no work done).", "nl": "Een doos stilhouden betekent d = 0, dus W = 0 (geen arbeid verricht)." },
+        { "en": "Work is measured in Joules (J), not Watts (W is power).", "nl": "Arbeid wordt gemeten in Joule (J), niet in Watt (W is vermogen)." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking any effort is 'work' in physics terms", "nl": "Denken dat elke inspanning 'arbeid' is in natuurkundige termen" },
+        { "en": "Confusing work (Joules) with power (Watts)", "nl": "Arbeid (Joule) verwarren met vermogen (Watt)" },
+        { "en": "Thinking holding something heavy is doing work", "nl": "Denken dat iets zwaars vasthouden arbeid verrichten is" }
+      ],
+      "dutchKeywords": ["arbeid", "verplaatsing", "definitie"]
+    },
+    {
+      "id": "ew-009",
+      "topic": "energy-work",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A 60 kg cyclist moves at 8 m/s. How much work must be done by the brakes to stop the cyclist?",
+        "nl": "Een fietser van 60 kg rijdt met 8 m/s. Hoeveel arbeid moeten de remmen verrichten om de fietser te stoppen?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 1920,
+      "tolerance": { "absolute": 20 },
+      "unitOptions": ["J", "N", "W", "m/s"],
+      "correctUnit": "J",
+      "hints": [
+        { "en": "The work done by brakes equals the kinetic energy lost.", "nl": "De arbeid verricht door de remmen is gelijk aan de verloren kinetische energie." },
+        { "en": "Calculate the initial kinetic energy.", "nl": "Bereken de beginwaarde van de kinetische energie." },
+        { "en": "Ek = ½mv²", "nl": "E_k = ½mv²" }
+      ],
+      "solutionSteps": [
+        { "en": "Initial kinetic energy: Ek = ½mv²", "nl": "Kinetische energie aan het begin: E_k = ½mv²" },
+        { "en": "Ek = ½ × 60 kg × (8 m/s)²", "nl": "E_k = ½ × 60 kg × (8 m/s)²" },
+        { "en": "Ek = ½ × 60 × 64 = 1920 J", "nl": "E_k = ½ × 60 × 64 = 1920 J" },
+        { "en": "The brakes must do 1920 J of work to remove this kinetic energy.", "nl": "De remmen moeten 1920 J arbeid verrichten om deze kinetische energie weg te nemen." }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to square the velocity", "nl": "Vergeten de snelheid te kwadrateren" },
+        { "en": "Not recognizing this as an energy conversion problem", "nl": "Dit niet herkennen als een energieomzettingsprobleem" },
+        { "en": "Using the wrong formula for kinetic energy", "nl": "De verkeerde formule voor kinetische energie gebruiken" }
+      ],
+      "dutchKeywords": ["remmen", "stoppen", "arbeid door wrijving"]
+    },
+    {
+      "id": "ew-010",
+      "topic": "energy-work",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A 0.5 kg ball is thrown upward with 10 m/s. What maximum height does it reach? Use g = 10 m/s². Ignore air resistance.",
+        "nl": "Een bal van 0,5 kg wordt omhoog gegooid met 10 m/s. Welke maximale hoogte bereikt hij? Gebruik g = 10 m/s². Verwaarloosde luchtweerstand."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 5,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["m", "m/s", "J", "s"],
+      "correctUnit": "m",
+      "hints": [
+        { "en": "At maximum height, all kinetic energy converts to potential energy.", "nl": "Op de maximale hoogte wordt alle kinetische energie omgezet in potentiële energie." },
+        { "en": "½mv² = mgh → mass cancels!", "nl": "½mv² = mgh → massa valt weg!" },
+        { "en": "h = v²/(2g)", "nl": "h = v²/(2g)" }
+      ],
+      "solutionSteps": [
+        { "en": "At max height, v = 0, all Ek converts to Ep", "nl": "Op maximale hoogte is v = 0, alle E_k wordt omgezet in E_p" },
+        { "en": "½mv² = mgh → mass cancels", "nl": "½mv² = mgh → massa valt weg" },
+        { "en": "½v² = gh", "nl": "½v² = gh" },
+        { "en": "h = v²/(2g) = 10²/(2×10) = 100/20 = 5 m", "nl": "h = v²/(2g) = 10²/(2×10) = 100/20 = 5 m" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting that mass cancels in this equation", "nl": "Vergeten dat de massa wegvalt in deze vergelijking" },
+        { "en": "Using h = v/g instead of h = v²/2g", "nl": "h = v/g gebruiken in plaats van h = v²/2g" },
+        { "en": "Not recognizing this as energy conservation", "nl": "Dit niet herkennen als energiebehoud" }
+      ],
+      "dutchKeywords": ["omhoog gooien", "maximale hoogte", "energiebehoud"]
+    },
+    {
+      "id": "pw-001",
+      "topic": "power",
+      "difficulty": 1,
+      "prompt": {
+        "en": "A machine does 600 J of work in 3 seconds. What is its power output?",
+        "nl": "Een machine verricht 600 J arbeid in 3 seconden. Wat is het vermogen?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 200,
+      "tolerance": { "absolute": 1 },
+      "unitOptions": ["W", "J", "N", "J/s"],
+      "correctUnit": "W",
+      "hints": [
+        { "en": "Power is the rate of doing work.", "nl": "Vermogen is de snelheid waarmee arbeid wordt verricht." },
+        { "en": "Use the formula: P = W/t", "nl": "Gebruik de formule: P = W/t" },
+        { "en": "P = 600/3", "nl": "P = 600/3" }
+      ],
+      "solutionSteps": [
+        { "en": "Power formula: P = W/t (Work divided by time)", "nl": "Vermogen formule: P = W/t (Arbeid gedeeld door tijd)" },
+        { "en": "Given: W = 600 J, t = 3 s", "nl": "Gegeven: W = 600 J, t = 3 s" },
+        { "en": "P = 600 J / 3 s = 200 W", "nl": "P = 600 J / 3 s = 200 W" },
+        { "en": "The power output is 200 Watts", "nl": "Het vermogen is 200 Watt" }
+      ],
+      "commonMistakes": [
+        { "en": "Multiplying instead of dividing", "nl": "Vermenigvuldigen in plaats van delen" },
+        { "en": "Confusing power (W) with work (J)", "nl": "Vermogen (W) verwarren met arbeid (J)" },
+        { "en": "Using the wrong unit", "nl": "De verkeerde eenheid gebruiken" }
+      ],
+      "dutchKeywords": ["vermogen", "watt", "arbeid per seconde"]
+    },
+    {
+      "id": "pw-002",
+      "topic": "power",
+      "difficulty": 1,
+      "prompt": {
+        "en": "What is the unit of power?",
+        "nl": "Wat is de eenheid van vermogen?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Watt (W)", "nl": "Watt (W)" },
+        { "en": "Joule (J)", "nl": "Joule (J)" },
+        { "en": "Newton (N)", "nl": "Newton (N)" },
+        { "en": "Kilogram (kg)", "nl": "Kilogram (kg)" }
+      ],
+      "correctAnswer": "Watt (W)",
+      "hints": [
+        { "en": "Power is work per unit time.", "nl": "Vermogen is arbeid per tijdseenheid." },
+        { "en": "Think about what unit represents J/s.", "nl": "Denk na over welke eenheid J/s vertegenwoordigt." },
+        { "en": "It's named after James Watt.", "nl": "Het is vernoemd naar James Watt." }
+      ],
+      "solutionSteps": [
+        { "en": "Power = Work / Time", "nl": "Vermogen = Arbeid / Tijd" },
+        { "en": "Unit of work = Joule (J)", "nl": "Eenheid van arbeid = Joule (J)" },
+        { "en": "Unit of time = Second (s)", "nl": "Eenheid van tijd = Seconde (s)" },
+        { "en": "Unit of power = J/s = Watt (W)", "nl": "Eenheid van vermogen = J/s = Watt (W)" }
+      ],
+      "commonMistakes": [
+        { "en": "Confusing Watts with Joules", "nl": "Watt verwarren met Joule" },
+        { "en": "Thinking Joules measure power", "nl": "Denken dat Joule vermogen meet" }
+      ],
+      "dutchKeywords": ["vermogen", "eenheid", "watt"]
+    },
+    {
+      "id": "pw-003",
+      "topic": "power",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A motor lifts a 50 kg load 8 m in 4 seconds. What power does the motor deliver? Use g = 10 m/s².",
+        "nl": "Een motor heft een last van 50 kg 8 m omhoog in 4 seconden. Welk vermogen levert de motor? Gebruik g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 1000,
+      "tolerance": { "absolute": 10 },
+      "unitOptions": ["W", "J", "N", "kW"],
+      "correctUnit": "W",
+      "hints": [
+        { "en": "First calculate the work done: W = mgh (lifting against gravity).", "nl": "Bereken eerst de verrichte arbeid: W = mgh (tillen tegen de zwaartekracht)." },
+        { "en": "Then calculate power: P = W/t", "nl": "Bereken dan het vermogen: P = W/t" },
+        { "en": "W = 50 × 10 × 8 = 4000 J", "nl": "W = 50 × 10 × 8 = 4000 J" }
+      ],
+      "solutionSteps": [
+        { "en": "Work done to lift: W = mgh = 50 × 10 × 8 = 4000 J", "nl": "Verrichte arbeid om te tillen: W = mgh = 50 × 10 × 8 = 4000 J" },
+        { "en": "Power: P = W/t = 4000 J / 4 s = 1000 W", "nl": "Vermogen: P = W/t = 4000 J / 4 s = 1000 W" },
+        { "en": "Or directly: P = mgh/t = (50 × 10 × 8)/4 = 1000 W", "nl": "Of direct: P = mgh/t = (50 × 10 × 8)/4 = 1000 W" },
+        { "en": "The motor delivers 1000 W or 1 kW", "nl": "De motor levert 1000 W of 1 kW" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to calculate work first", "nl": "Vergeten eerst de arbeid te berekenen" },
+        { "en": "Using weight (mg) but forgetting height", "nl": "Gewicht (mg) gebruiken maar hoogte vergeten" },
+        { "en": "Dividing by wrong time value", "nl": "Door de verkeerde tijdswaarde delen" }
+      ],
+      "dutchKeywords": ["motor", "hijsen", "tillen", "vermogen"]
+    },
+    {
+      "id": "pw-004",
+      "topic": "power",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A car engine delivers 75 kW. How much work does it do in 20 seconds?",
+        "nl": "Een automotor levert 75 kW. Hoeveel arbeid verricht hij in 20 seconden?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 1500000,
+      "tolerance": { "absolute": 10000 },
+      "unitOptions": ["J", "kJ", "W", "N"],
+      "correctUnit": "J",
+      "hints": [
+        { "en": "Rearrange P = W/t to find work.", "nl": "Herschrijf P = W/t om arbeid te vinden." },
+        { "en": "W = P × t", "nl": "W = P × t" },
+        { "en": "Don't forget to convert kW to W first.", "nl": "Vergeet niet eerst kW naar W om te rekenen." }
+      ],
+      "solutionSteps": [
+        { "en": "Convert power: 75 kW = 75,000 W", "nl": "Reken vermogen om: 75 kW = 75.000 W" },
+        { "en": "Use W = P × t", "nl": "Gebruik W = P × t" },
+        { "en": "W = 75,000 W × 20 s = 1,500,000 J", "nl": "W = 75.000 W × 20 s = 1.500.000 J" },
+        { "en": "The engine does 1.5 MJ (1500 kJ) of work", "nl": "De motor verricht 1,5 MJ (1500 kJ) arbeid" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to convert kW to W", "nl": "Vergeten kW naar W om te rekenen" },
+        { "en": "Dividing instead of multiplying", "nl": "Delen in plaats van vermenigvuldigen" },
+        { "en": "Using the formula incorrectly", "nl": "De formule verkeerd gebruiken" }
+      ],
+      "dutchKeywords": ["automotor", "kilowatt", "arbeid"]
+    },
+    {
+      "id": "pw-005",
+      "topic": "power",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A person (70 kg) runs up stairs (5 m vertical height) in 6 seconds. What power do they develop? Use g = 10 m/s².",
+        "nl": "Een persoon (70 kg) rent de trap op (5 m verticale hoogte) in 6 seconden. Welk vermogen ontwikkelt hij? Gebruik g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 583.33,
+      "tolerance": { "relative": 0.02 },
+      "unitOptions": ["W", "J", "N", "kW"],
+      "correctUnit": "W",
+      "hints": [
+        { "en": "Work done = gravitational potential energy gained", "nl": "Verrichte arbeid = gewonnen zwaarte-energie" },
+        { "en": "W = mgh", "nl": "W = mgh" },
+        { "en": "P = W/t = mgh/t", "nl": "P = W/t = mgh/t" }
+      ],
+      "solutionSteps": [
+        { "en": "Work against gravity: W = mgh = 70 × 10 × 5 = 3500 J", "nl": "Arbeid tegen zwaartekracht: W = mgh = 70 × 10 × 5 = 3500 J" },
+        { "en": "Power: P = W/t = 3500/6 ≈ 583.33 W", "nl": "Vermogen: P = W/t = 3500/6 ≈ 583,33 W" },
+        { "en": "The person develops about 583 W of power", "nl": "De persoon ontwikkelt ongeveer 583 W vermogen" }
+      ],
+      "commonMistakes": [
+        { "en": "Using horizontal distance instead of vertical height", "nl": "Horizontale afstand gebruiken in plaats van verticale hoogte" },
+        { "en": "Forgetting any of the factors (m, g, or h)", "nl": "Een van de factoren vergeten (m, g of h)" },
+        { "en": "Not dividing by time", "nl": "Niet delen door tijd" }
+      ],
+      "dutchKeywords": ["trap lopen", "menselijk vermogen", "hoogte"]
+    },
+    {
+      "id": "pw-006",
+      "topic": "power",
+      "difficulty": 1,
+      "prompt": {
+        "en": "How many Joules per second does a 100 W light bulb use?",
+        "nl": "Hoeveel Joule per seconde gebruikt een gloeilamp van 100 W?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 100,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["J/s", "W", "J", "kW"],
+      "correctUnit": "J/s",
+      "hints": [
+        { "en": "What is the definition of a Watt?", "nl": "Wat is de definitie van een Watt?" },
+        { "en": "1 W = 1 J/s", "nl": "1 W = 1 J/s" },
+        { "en": "The answer is simpler than you might think.", "nl": "Het antwoord is eenvoudiger dan je denkt." }
+      ],
+      "solutionSteps": [
+        { "en": "By definition: 1 Watt = 1 Joule per second", "nl": "Per definitie: 1 Watt = 1 Joule per seconde" },
+        { "en": "Therefore: 100 W = 100 J/s", "nl": "Dus: 100 W = 100 J/s" },
+        { "en": "A 100 W light bulb uses 100 Joules every second", "nl": "Een gloeilamp van 100 W gebruikt 100 Joule per seconde" }
+      ],
+      "commonMistakes": [
+        { "en": "Overcomplicating the conversion", "nl": "De omrekening te ingewikkeld maken" },
+        { "en": "Not knowing that W = J/s", "nl": "Niet weten dat W = J/s" }
+      ],
+      "dutchKeywords": ["gloeilamp", "energieverbruik", "watt"]
+    },
+    {
+      "id": "pw-007",
+      "topic": "power",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A cyclist maintains a constant speed by delivering 400 W of power against friction. How much energy does she use in 5 minutes?",
+        "nl": "Een fietser houdt een constante snelheid aan door 400 W vermogen te leveren tegen wrijving. Hoeveel energie gebruikt zij in 5 minuten?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 120000,
+      "tolerance": { "absolute": 1000 },
+      "unitOptions": ["J", "kJ", "W", "N"],
+      "correctUnit": "J",
+      "hints": [
+        { "en": "Convert time to seconds first.", "nl": "Reken eerst de tijd om naar seconden." },
+        { "en": "Energy = Power × Time", "nl": "Energie = Vermogen × Tijd" },
+        { "en": "E = P × t", "nl": "E = P × t" }
+      ],
+      "solutionSteps": [
+        { "en": "Convert time: 5 minutes = 5 × 60 = 300 seconds", "nl": "Reken tijd om: 5 minuten = 5 × 60 = 300 seconden" },
+        { "en": "Energy formula: E = P × t", "nl": "Energie formule: E = P × t" },
+        { "en": "E = 400 W × 300 s = 120,000 J", "nl": "E = 400 W × 300 s = 120.000 J" },
+        { "en": "She uses 120 kJ of energy", "nl": "Zij gebruikt 120 kJ energie" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to convert minutes to seconds", "nl": "Vergeten minuten naar seconden om te rekenen" },
+        { "en": "Using the formula incorrectly", "nl": "De formule verkeerd gebruiken" },
+        { "en": "Dividing instead of multiplying", "nl": "Delen in plaats van vermenigvuldigen" }
+      ],
+      "dutchKeywords": ["fietser", "energieverbruik", "tijd"]
+    },
+    {
+      "id": "pw-008",
+      "topic": "power",
+      "difficulty": 3,
+      "prompt": {
+        "en": "Two identical pumps work together. Pump A alone can fill a tank in 10 minutes, delivering 500 W. Both pumps together take 5 minutes. What is the combined power?",
+        "nl": "Twee identieke pompen werken samen. Pomp A alleen kan een tank vullen in 10 minuten met 500 W vermogen. Beide pompen samen doen er 5 minuten over. Wat is het gecombineerde vermogen?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 1000,
+      "tolerance": { "absolute": 10 },
+      "unitOptions": ["W", "kW", "J", "J/s"],
+      "correctUnit": "W",
+      "hints": [
+        { "en": "If two identical pumps work together, they each deliver 500 W.", "nl": "Als twee identieke pompen samenwerken, leveren ze elk 500 W." },
+        { "en": "Total power is the sum of individual powers.", "nl": "Het totale vermogen is de som van de individuele vermogens." },
+        { "en": "P_total = P₁ + P₂", "nl": "P_totaal = P₁ + P₂" }
+      ],
+      "solutionSteps": [
+        { "en": "Pump A delivers 500 W", "nl": "Pomp A levert 500 W" },
+        { "en": "Both pumps are identical, so Pump B also delivers 500 W", "nl": "Beide pompen zijn identiek, dus Pomp B levert ook 500 W" },
+        { "en": "Combined power: P_total = 500 + 500 = 1000 W", "nl": "Gecombineerd vermogen: P_totaal = 500 + 500 = 1000 W" },
+        { "en": "The combined power is 1000 W or 1 kW", "nl": "Het gecombineerde vermogen is 1000 W of 1 kW" }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking power needs to be calculated differently when combined", "nl": "Denken dat vermogen anders berekend moet worden als ze gecombineerd zijn" },
+        { "en": "Not recognizing identical pumps have equal power", "nl": "Niet herkennen dat identieke pompen gelijk vermogen hebben" }
+      ],
+      "dutchKeywords": ["pomp", "gecombineerd vermogen", "samen werken"]
+    },
+    {
+      "id": "pw-009",
+      "topic": "power",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A crane lifts a 200 kg load with constant velocity. If the motor delivers 2 kW, at what speed does the load rise? Use g = 10 m/s².",
+        "nl": "Een kraan heft een last van 200 kg met constante snelheid. Als de motor 2 kW levert, met welke snelheid stijgt de last? Gebruik g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 1,
+      "tolerance": { "absolute": 0.05 },
+      "unitOptions": ["m/s", "m/s²", "m", "W"],
+      "correctUnit": "m/s",
+      "hints": [
+        { "en": "For constant velocity, all power goes to lifting.", "nl": "Bij constante snelheid gaat al het vermogen naar het heffen." },
+        { "en": "P = F × v, where F equals the weight.", "nl": "P = F × v, waarbij F gelijk is aan het gewicht." },
+        { "en": "v = P/(mg)", "nl": "v = P/(mg)" }
+      ],
+      "solutionSteps": [
+        { "en": "At constant velocity: Power = Force × velocity", "nl": "Bij constante snelheid: Vermogen = Kracht × snelheid" },
+        { "en": "Force needed = Weight = mg = 200 × 10 = 2000 N", "nl": "Benodigde kracht = Gewicht = mg = 200 × 10 = 2000 N" },
+        { "en": "P = F × v → v = P/F", "nl": "P = F × v → v = P/F" },
+        { "en": "v = 2000 W / 2000 N = 1 m/s", "nl": "v = 2000 W / 2000 N = 1 m/s" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting that F = mg for lifting", "nl": "Vergeten dat F = mg voor het heffen" },
+        { "en": "Not converting kW to W", "nl": "kW niet omrekenen naar W" },
+        { "en": "Using wrong formula for power", "nl": "De verkeerde formule voor vermogen gebruiken" }
+      ],
+      "dutchKeywords": ["kraan", "hijsen", "constante snelheid"]
+    },
+    {
+      "id": "pw-010",
+      "topic": "power",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A 1200 kg car accelerates from 0 to 25 m/s in 10 s on a horizontal road. What minimum average power is needed? Ignore friction.",
+        "nl": "Een auto van 1200 kg versnelt van 0 naar 25 m/s in 10 s op een horizontale weg. Welk minimaal gemiddeld vermogen is nodig? Verwaarloosde wrijving."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 37500,
+      "tolerance": { "relative": 0.02 },
+      "unitOptions": ["W", "kW", "J", "N"],
+      "correctUnit": "W",
+      "hints": [
+        { "en": "Calculate the kinetic energy gained.", "nl": "Bereken de gewonnen kinetische energie." },
+        { "en": "Average power = Total energy / time", "nl": "Gemiddeld vermogen = Totale energie / tijd" },
+        { "en": "Ek = ½mv²", "nl": "E_k = ½mv²" }
+      ],
+      "solutionSteps": [
+        { "en": "Final kinetic energy: Ek = ½mv² = ½ × 1200 × 25² = 375,000 J", "nl": "Eindkinetische energie: E_k = ½mv² = ½ × 1200 × 25² = 375.000 J" },
+        { "en": "This energy was delivered in 10 seconds", "nl": "Deze energie werd geleverd in 10 seconden" },
+        { "en": "Average power: P = E/t = 375,000/10 = 37,500 W", "nl": "Gemiddeld vermogen: P = E/t = 375.000/10 = 37.500 W" },
+        { "en": "Minimum average power needed is 37.5 kW", "nl": "Minimaal gemiddeld vermogen nodig is 37,5 kW" }
+      ],
+      "commonMistakes": [
+        { "en": "Using P = Fv instead of energy approach", "nl": "P = Fv gebruiken in plaats van de energie-aanpak" },
+        { "en": "Forgetting the ½ in kinetic energy", "nl": "De ½ in kinetische energie vergeten" },
+        { "en": "Not squaring the velocity", "nl": "De snelheid niet kwadrateren" }
+      ],
+      "dutchKeywords": ["accelereren", "gemiddeld vermogen", "auto"]
+    },
+    {
+      "id": "mg-001",
+      "topic": "motion-graphs",
+      "difficulty": 1,
+      "prompt": {
+        "en": "On a position-time (s-t) graph, what does a horizontal line represent?",
+        "nl": "Op een plaats-tijd (s-t) diagram, wat stelt een horizontale lijn voor?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "The object is stationary", "nl": "Het voorwerp staat stil" },
+        { "en": "The object moves with constant velocity", "nl": "Het voorwerp beweegt met constante snelheid" },
+        { "en": "The object is accelerating", "nl": "Het voorwerp versnelt" },
+        { "en": "The object is decelerating", "nl": "Het voorwerp vertraagt" }
+      ],
+      "correctAnswer": "The object is stationary",
+      "hints": [
+        { "en": "A horizontal line means position doesn't change.", "nl": "Een horizontale lijn betekent dat de positie niet verandert." },
+        { "en": "No change in position means no movement.", "nl": "Geen verandering in positie betekent geen beweging." },
+        { "en": "The object stays at the same location.", "nl": "Het voorwerp blijft op dezelfde locatie." }
+      ],
+      "solutionSteps": [
+        { "en": "On an s-t graph, the y-axis shows position (s) and x-axis shows time (t).", "nl": "Op een s-t diagram toont de y-as de positie (s) en de x-as de tijd (t)." },
+        { "en": "A horizontal line means position stays constant over time.", "nl": "Een horizontale lijn betekent dat de positie constant blijft in de tijd." },
+        { "en": "Constant position = no displacement = stationary object.", "nl": "Constante positie = geen verplaatsing = stilstaand voorwerp." },
+        { "en": "The object is at rest (not moving).", "nl": "Het voorwerp is in rust (beweegt niet)." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking horizontal means constant velocity", "nl": "Denken dat horizontaal constante snelheid betekent" },
+        { "en": "Confusing with v-t graph interpretation", "nl": "Verwarren met v-t diagram interpretatie" },
+        { "en": "Thinking any line means movement", "nl": "Denken dat elke lijn beweging betekent" }
+      ],
+      "dutchKeywords": ["plaats-tijd diagram", "stilstand", "horizontale lijn"]
+    },
+    {
+      "id": "mg-002",
+      "topic": "motion-graphs",
+      "difficulty": 1,
+      "prompt": {
+        "en": "On a velocity-time (v-t) graph, the area under the curve represents:",
+        "nl": "Op een snelheid-tijd (v-t) diagram stelt de oppervlakte onder de grafiek voor:"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Displacement", "nl": "Verplaatsing" },
+        { "en": "Acceleration", "nl": "Versnelling" },
+        { "en": "Speed", "nl": "Snelheid" },
+        { "en": "Force", "nl": "Kracht" }
+      ],
+      "correctAnswer": "Displacement",
+      "hints": [
+        { "en": "Think about the units: velocity × time = ?", "nl": "Denk aan de eenheden: snelheid × tijd = ?" },
+        { "en": "What physical quantity has units of m/s × s?", "nl": "Welke fysische grootheid heeft eenheden van m/s × s?" },
+        { "en": "The area calculation gives distance/displacement.", "nl": "De oppervlakteberekening geeft afstand/verplaatsing." }
+      ],
+      "solutionSteps": [
+        { "en": "On a v-t graph: Area = velocity × time", "nl": "Op een v-t diagram: Oppervlakte = snelheid × tijd" },
+        { "en": "Units: (m/s) × s = m", "nl": "Eenheden: (m/s) × s = m" },
+        { "en": "The unit meter represents displacement.", "nl": "De eenheid meter vertegenwoordigt verplaatsing." },
+        { "en": "Therefore, the area under a v-t graph equals displacement.", "nl": "Dus de oppervlakte onder een v-t diagram is gelijk aan de verplaatsing." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking the area represents velocity", "nl": "Denken dat de oppervlakte snelheid voorstelt" },
+        { "en": "Confusing area with slope", "nl": "Oppervlakte verwarren met helling" },
+        { "en": "Not recognizing the unit analysis", "nl": "De eenhedenanalyse niet herkennen" }
+      ],
+      "dutchKeywords": ["snelheid-tijd diagram", "oppervlakte", "verplaatsing"]
+    },
+    {
+      "id": "mg-003",
+      "topic": "motion-graphs",
+      "difficulty": 2,
+      "prompt": {
+        "en": "On a velocity-time graph, what does the slope represent?",
+        "nl": "Op een snelheid-tijd diagram, wat stelt de helling voor?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Acceleration", "nl": "Versnelling" },
+        { "en": "Displacement", "nl": "Verplaatsing" },
+        { "en": "Speed", "nl": "Snelheid" },
+        { "en": "Position", "nl": "Positie" }
+      ],
+      "correctAnswer": "Acceleration",
+      "hints": [
+        { "en": "Slope = change in y / change in x", "nl": "Helling = verandering in y / verandering in x" },
+        { "en": "On v-t: slope = Δv / Δt", "nl": "Op v-t: helling = Δv / Δt" },
+        { "en": "What quantity is defined as change in velocity per time?", "nl": "Welke grootheid is gedefinieerd als snelheidsverandering per tijd?" }
+      ],
+      "solutionSteps": [
+        { "en": "Slope of any graph = rise/run = Δy/Δx", "nl": "Helling van elke grafiek = stijging/verloop = Δy/Δx" },
+        { "en": "On v-t graph: slope = Δv/Δt", "nl": "Op v-t diagram: helling = Δv/Δt" },
+        { "en": "Definition: acceleration = change in velocity / time = Δv/Δt", "nl": "Definitie: versnelling = snelheidsverandering / tijd = Δv/Δt" },
+        { "en": "Therefore, the slope of a v-t graph equals acceleration.", "nl": "Dus de helling van een v-t diagram is gelijk aan de versnelling." }
+      ],
+      "commonMistakes": [
+        { "en": "Confusing with s-t graph (where slope = velocity)", "nl": "Verwarren met s-t diagram (waar helling = snelheid)" },
+        { "en": "Thinking slope represents velocity", "nl": "Denken dat helling snelheid voorstelt" },
+        { "en": "Not remembering the definition of acceleration", "nl": "De definitie van versnelling niet onthouden" }
+      ],
+      "dutchKeywords": ["helling", "richtingscoëfficiënt", "versnelling"]
+    },
+    {
+      "id": "mg-004",
+      "topic": "motion-graphs",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A car travels at constant velocity for 5 seconds, covering 100 m. What is its velocity?",
+        "nl": "Een auto rijdt met constante snelheid gedurende 5 seconden en legt 100 m af. Wat is de snelheid?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 20,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["m/s", "m/s²", "m", "s"],
+      "correctUnit": "m/s",
+      "hints": [
+        { "en": "Constant velocity means v = d/t.", "nl": "Constante snelheid betekent v = d/t." },
+        { "en": "Use the given distance and time.", "nl": "Gebruik de gegeven afstand en tijd." },
+        { "en": "v = 100/5", "nl": "v = 100/5" }
+      ],
+      "solutionSteps": [
+        { "en": "For constant velocity: v = distance/time = d/t", "nl": "Bij constante snelheid: v = afstand/tijd = d/t" },
+        { "en": "Given: d = 100 m, t = 5 s", "nl": "Gegeven: d = 100 m, t = 5 s" },
+        { "en": "v = 100 m / 5 s = 20 m/s", "nl": "v = 100 m / 5 s = 20 m/s" }
+      ],
+      "commonMistakes": [
+        { "en": "Multiplying instead of dividing", "nl": "Vermenigvuldigen in plaats van delen" },
+        { "en": "Confusing velocity with acceleration", "nl": "Snelheid verwarren met versnelling" },
+        { "en": "Using the wrong formula", "nl": "De verkeerde formule gebruiken" }
+      ],
+      "dutchKeywords": ["constante snelheid", "afstand", "tijd"]
+    },
+    {
+      "id": "mg-005",
+      "topic": "motion-graphs",
+      "difficulty": 2,
+      "prompt": {
+        "en": "An object starts at rest and accelerates uniformly to 15 m/s in 5 seconds. What is its acceleration?",
+        "nl": "Een voorwerp start in rust en versnelt eenparig naar 15 m/s in 5 seconden. Wat is de versnelling?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 3,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["m/s²", "m/s", "m", "s"],
+      "correctUnit": "m/s²",
+      "hints": [
+        { "en": "Acceleration = change in velocity / time", "nl": "Versnelling = snelheidsverandering / tijd" },
+        { "en": "The object starts at 0 m/s and ends at 15 m/s.", "nl": "Het voorwerp start bij 0 m/s en eindigt op 15 m/s." },
+        { "en": "a = (v - v₀)/t", "nl": "a = (v - v₀)/t" }
+      ],
+      "solutionSteps": [
+        { "en": "Acceleration: a = Δv/Δt = (v_final - v_initial)/t", "nl": "Versnelling: a = Δv/Δt = (v_eind - v_begin)/t" },
+        { "en": "Given: v₀ = 0 m/s, v = 15 m/s, t = 5 s", "nl": "Gegeven: v₀ = 0 m/s, v = 15 m/s, t = 5 s" },
+        { "en": "a = (15 - 0)/5 = 15/5 = 3 m/s²", "nl": "a = (15 - 0)/5 = 15/5 = 3 m/s²" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting the object starts from rest", "nl": "Vergeten dat het voorwerp start vanuit rust" },
+        { "en": "Multiplying instead of dividing", "nl": "Vermenigvuldigen in plaats van delen" },
+        { "en": "Using velocity instead of change in velocity", "nl": "Snelheid gebruiken in plaats van snelheidsverandering" }
+      ],
+      "dutchKeywords": ["eenparig versneld", "rust", "versnelling"]
+    },
+    {
+      "id": "mg-006",
+      "topic": "motion-graphs",
+      "difficulty": 2,
+      "prompt": {
+        "en": "On a position-time graph, what does a straight line with positive slope represent?",
+        "nl": "Op een plaats-tijd diagram, wat stelt een rechte lijn met positieve helling voor?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Constant positive velocity", "nl": "Constante positieve snelheid" },
+        { "en": "Increasing velocity", "nl": "Toenemende snelheid" },
+        { "en": "Constant acceleration", "nl": "Constante versnelling" },
+        { "en": "Object at rest", "nl": "Voorwerp in rust" }
+      ],
+      "correctAnswer": "Constant positive velocity",
+      "hints": [
+        { "en": "On s-t graph, slope = velocity.", "nl": "Op s-t diagram, helling = snelheid." },
+        { "en": "A straight line means constant slope.", "nl": "Een rechte lijn betekent constante helling." },
+        { "en": "Positive slope means position increasing with time.", "nl": "Positieve helling betekent dat de positie toeneemt met de tijd." }
+      ],
+      "solutionSteps": [
+        { "en": "On an s-t graph, slope = Δs/Δt = velocity", "nl": "Op een s-t diagram, helling = Δs/Δt = snelheid" },
+        { "en": "A straight line has constant slope = constant velocity", "nl": "Een rechte lijn heeft constante helling = constante snelheid" },
+        { "en": "Positive slope means moving in positive direction", "nl": "Positieve helling betekent beweging in positieve richting" },
+        { "en": "Therefore: constant positive velocity", "nl": "Dus: constante positieve snelheid" }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking straight line means acceleration", "nl": "Denken dat een rechte lijn versnelling betekent" },
+        { "en": "Confusing with v-t graph interpretation", "nl": "Verwarren met v-t diagram interpretatie" },
+        { "en": "Not recognizing slope = velocity on s-t graph", "nl": "Niet herkennen dat helling = snelheid op s-t diagram" }
+      ],
+      "dutchKeywords": ["eenparige beweging", "positieve snelheid", "stijgende lijn"]
+    },
+    {
+      "id": "mg-007",
+      "topic": "motion-graphs",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A v-t graph shows a straight line from (0, 0) to (4s, 12 m/s). What is the displacement during this time?",
+        "nl": "Een v-t diagram toont een rechte lijn van (0, 0) naar (4s, 12 m/s). Wat is de verplaatsing gedurende deze tijd?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 24,
+      "tolerance": { "absolute": 0.5 },
+      "unitOptions": ["m", "m/s", "m/s²", "s"],
+      "correctUnit": "m",
+      "hints": [
+        { "en": "Displacement = area under v-t curve.", "nl": "Verplaatsing = oppervlakte onder v-t grafiek." },
+        { "en": "The shape is a triangle.", "nl": "De vorm is een driehoek." },
+        { "en": "Area of triangle = ½ × base × height", "nl": "Oppervlakte van driehoek = ½ × basis × hoogte" }
+      ],
+      "solutionSteps": [
+        { "en": "The shape under the line is a triangle", "nl": "De vorm onder de lijn is een driehoek" },
+        { "en": "Base = 4 s (time), Height = 12 m/s (final velocity)", "nl": "Basis = 4 s (tijd), Hoogte = 12 m/s (eindsnelheid)" },
+        { "en": "Area = ½ × base × height = ½ × 4 × 12", "nl": "Oppervlakte = ½ × basis × hoogte = ½ × 4 × 12" },
+        { "en": "Displacement = 24 m", "nl": "Verplaatsing = 24 m" }
+      ],
+      "commonMistakes": [
+        { "en": "Using rectangle area instead of triangle", "nl": "Rechthoek oppervlakte gebruiken in plaats van driehoek" },
+        { "en": "Forgetting the ½ factor", "nl": "De factor ½ vergeten" },
+        { "en": "Not recognizing this as an area problem", "nl": "Dit niet herkennen als een oppervlakteprobleem" }
+      ],
+      "dutchKeywords": ["oppervlakte", "driehoek", "verplaatsing"]
+    },
+    {
+      "id": "mg-008",
+      "topic": "motion-graphs",
+      "difficulty": 3,
+      "prompt": {
+        "en": "An object moves at 10 m/s for 3 s, then at 4 m/s for 2 s. What is the total displacement?",
+        "nl": "Een voorwerp beweegt met 10 m/s gedurende 3 s, dan met 4 m/s gedurende 2 s. Wat is de totale verplaatsing?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 38,
+      "tolerance": { "absolute": 0.5 },
+      "unitOptions": ["m", "m/s", "s", "m/s²"],
+      "correctUnit": "m",
+      "hints": [
+        { "en": "Calculate displacement for each phase separately.", "nl": "Bereken de verplaatsing voor elke fase apart." },
+        { "en": "d = v × t for each constant velocity section.", "nl": "d = v × t voor elk stuk met constante snelheid." },
+        { "en": "Add the two displacements together.", "nl": "Tel de twee verplaatsingen bij elkaar op." }
+      ],
+      "solutionSteps": [
+        { "en": "Phase 1: d₁ = v₁ × t₁ = 10 × 3 = 30 m", "nl": "Fase 1: d₁ = v₁ × t₁ = 10 × 3 = 30 m" },
+        { "en": "Phase 2: d₂ = v₂ × t₂ = 4 × 2 = 8 m", "nl": "Fase 2: d₂ = v₂ × t₂ = 4 × 2 = 8 m" },
+        { "en": "Total displacement: d = d₁ + d₂ = 30 + 8 = 38 m", "nl": "Totale verplaatsing: d = d₁ + d₂ = 30 + 8 = 38 m" }
+      ],
+      "commonMistakes": [
+        { "en": "Averaging the velocities incorrectly", "nl": "De snelheden verkeerd middelen" },
+        { "en": "Multiplying all numbers together", "nl": "Alle getallen met elkaar vermenigvuldigen" },
+        { "en": "Forgetting to add the two phases", "nl": "Vergeten de twee fasen op te tellen" }
+      ],
+      "dutchKeywords": ["twee fasen", "totale verplaatsing", "optellen"]
+    },
+    {
+      "id": "mg-009",
+      "topic": "motion-graphs",
+      "difficulty": 1,
+      "prompt": {
+        "en": "On an acceleration-time (a-t) graph, what does a horizontal line at a = 0 mean?",
+        "nl": "Op een versnelling-tijd (a-t) diagram, wat betekent een horizontale lijn bij a = 0?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Constant velocity (or at rest)", "nl": "Constante snelheid (of in rust)" },
+        { "en": "Constant acceleration", "nl": "Constante versnelling" },
+        { "en": "Increasing velocity", "nl": "Toenemende snelheid" },
+        { "en": "The object is stationary", "nl": "Het voorwerp staat stil" }
+      ],
+      "correctAnswer": "Constant velocity (or at rest)",
+      "hints": [
+        { "en": "If a = 0, there is no acceleration.", "nl": "Als a = 0, is er geen versnelling." },
+        { "en": "No acceleration means velocity doesn't change.", "nl": "Geen versnelling betekent dat de snelheid niet verandert." },
+        { "en": "This could be moving at constant speed or at rest.", "nl": "Dit kan bewegen met constante snelheid zijn of in rust." }
+      ],
+      "solutionSteps": [
+        { "en": "On an a-t graph, a = 0 means no acceleration.", "nl": "Op een a-t diagram betekent a = 0 geen versnelling." },
+        { "en": "No acceleration means Δv = 0 over time.", "nl": "Geen versnelling betekent Δv = 0 in de tijd." },
+        { "en": "Velocity remains constant (could be any value, including 0).", "nl": "De snelheid blijft constant (kan elke waarde zijn, inclusief 0)." },
+        { "en": "The object moves at constant velocity or stays at rest.", "nl": "Het voorwerp beweegt met constante snelheid of blijft in rust." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking a = 0 always means at rest", "nl": "Denken dat a = 0 altijd in rust betekent" },
+        { "en": "Confusing with other graph types", "nl": "Verwarren met andere diagramtypes" },
+        { "en": "Forgetting constant motion is also possible", "nl": "Vergeten dat constante beweging ook mogelijk is" }
+      ],
+      "dutchKeywords": ["versnelling nul", "constante snelheid", "geen versnelling"]
+    },
+    {
+      "id": "mg-010",
+      "topic": "motion-graphs",
+      "difficulty": 3,
+      "prompt": {
+        "en": "An object starts at position 20 m and moves with velocity -5 m/s. Where is it after 6 seconds?",
+        "nl": "Een voorwerp start op positie 20 m en beweegt met snelheid -5 m/s. Waar is het na 6 seconden?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": -10,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["m", "m/s", "s", "m/s²"],
+      "correctUnit": "m",
+      "hints": [
+        { "en": "Use: final position = initial position + displacement", "nl": "Gebruik: eindpositie = beginpositie + verplaatsing" },
+        { "en": "Displacement = velocity × time", "nl": "Verplaatsing = snelheid × tijd" },
+        { "en": "Negative velocity means moving in negative direction.", "nl": "Negatieve snelheid betekent bewegen in negatieve richting." }
+      ],
+      "solutionSteps": [
+        { "en": "Displacement: d = v × t = -5 × 6 = -30 m", "nl": "Verplaatsing: d = v × t = -5 × 6 = -30 m" },
+        { "en": "Final position: x = x₀ + d = 20 + (-30)", "nl": "Eindpositie: x = x₀ + d = 20 + (-30)" },
+        { "en": "x = 20 - 30 = -10 m", "nl": "x = 20 - 30 = -10 m" },
+        { "en": "The object is at position -10 m", "nl": "Het voorwerp is op positie -10 m" }
+      ],
+      "commonMistakes": [
+        { "en": "Ignoring the negative sign on velocity", "nl": "Het minteken van de snelheid negeren" },
+        { "en": "Subtracting from wrong direction", "nl": "Van de verkeerde richting aftrekken" },
+        { "en": "Confusing position with displacement", "nl": "Positie verwarren met verplaatsing" }
+      ],
+      "dutchKeywords": ["negatieve snelheid", "positie", "verplaatsing"]
+    },
+    {
+      "id": "dp-001",
+      "topic": "density-pressure",
+      "difficulty": 1,
+      "prompt": {
+        "en": "What is the density of an object with mass 500 g and volume 100 cm³?",
+        "nl": "Wat is de dichtheid van een voorwerp met massa 500 g en volume 100 cm³?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 5,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["g/cm³", "kg/m³", "g/L", "kg/L"],
+      "correctUnit": "g/cm³",
+      "hints": [
+        { "en": "Density = mass / volume", "nl": "Dichtheid = massa / volume" },
+        { "en": "ρ = m/V", "nl": "ρ = m/V" },
+        { "en": "Use the given values directly: 500/100", "nl": "Gebruik de gegeven waarden direct: 500/100" }
+      ],
+      "solutionSteps": [
+        { "en": "Density formula: ρ = m/V", "nl": "Dichtheid formule: ρ = m/V" },
+        { "en": "Given: m = 500 g, V = 100 cm³", "nl": "Gegeven: m = 500 g, V = 100 cm³" },
+        { "en": "ρ = 500 g / 100 cm³ = 5 g/cm³", "nl": "ρ = 500 g / 100 cm³ = 5 g/cm³" }
+      ],
+      "commonMistakes": [
+        { "en": "Dividing volume by mass instead", "nl": "Volume door massa delen in plaats van andersom" },
+        { "en": "Unit conversion errors", "nl": "Fouten bij het omrekenen van eenheden" },
+        { "en": "Forgetting the formula", "nl": "De formule vergeten" }
+      ],
+      "dutchKeywords": ["dichtheid", "massa", "volume", "soortelijk gewicht"]
+    },
+    {
+      "id": "dp-002",
+      "topic": "density-pressure",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Water has a density of 1000 kg/m³. What is the mass of 2 m³ of water?",
+        "nl": "Water heeft een dichtheid van 1000 kg/m³. Wat is de massa van 2 m³ water?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 2000,
+      "tolerance": { "absolute": 10 },
+      "unitOptions": ["kg", "g", "m³", "L"],
+      "correctUnit": "kg",
+      "hints": [
+        { "en": "Rearrange ρ = m/V to find mass.", "nl": "Herschrijf ρ = m/V om massa te vinden." },
+        { "en": "m = ρ × V", "nl": "m = ρ × V" },
+        { "en": "m = 1000 × 2", "nl": "m = 1000 × 2" }
+      ],
+      "solutionSteps": [
+        { "en": "From ρ = m/V, we get m = ρ × V", "nl": "Uit ρ = m/V krijgen we m = ρ × V" },
+        { "en": "Given: ρ = 1000 kg/m³, V = 2 m³", "nl": "Gegeven: ρ = 1000 kg/m³, V = 2 m³" },
+        { "en": "m = 1000 × 2 = 2000 kg", "nl": "m = 1000 × 2 = 2000 kg" }
+      ],
+      "commonMistakes": [
+        { "en": "Dividing instead of multiplying", "nl": "Delen in plaats van vermenigvuldigen" },
+        { "en": "Unit confusion between g and kg", "nl": "Eenheidsverwarring tussen g en kg" }
+      ],
+      "dutchKeywords": ["water", "massa berekenen", "volume"]
+    },
+    {
+      "id": "dp-003",
+      "topic": "density-pressure",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A force of 200 N is applied over an area of 0.5 m². What is the pressure?",
+        "nl": "Een kracht van 200 N wordt uitgeoefend op een oppervlakte van 0,5 m². Wat is de druk?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 400,
+      "tolerance": { "absolute": 5 },
+      "unitOptions": ["Pa", "N", "N/m", "bar"],
+      "correctUnit": "Pa",
+      "hints": [
+        { "en": "Pressure = Force / Area", "nl": "Druk = Kracht / Oppervlakte" },
+        { "en": "P = F/A", "nl": "P = F/A" },
+        { "en": "The unit Pascal (Pa) = N/m²", "nl": "De eenheid Pascal (Pa) = N/m²" }
+      ],
+      "solutionSteps": [
+        { "en": "Pressure formula: P = F/A", "nl": "Druk formule: P = F/A" },
+        { "en": "Given: F = 200 N, A = 0.5 m²", "nl": "Gegeven: F = 200 N, A = 0,5 m²" },
+        { "en": "P = 200 / 0.5 = 400 Pa", "nl": "P = 200 / 0,5 = 400 Pa" },
+        { "en": "Note: 1 Pa = 1 N/m²", "nl": "Let op: 1 Pa = 1 N/m²" }
+      ],
+      "commonMistakes": [
+        { "en": "Multiplying instead of dividing", "nl": "Vermenigvuldigen in plaats van delen" },
+        { "en": "Confusing units (Pa vs N)", "nl": "Eenheden verwarren (Pa vs N)" },
+        { "en": "Dividing area by force instead", "nl": "Oppervlakte door kracht delen in plaats van andersom" }
+      ],
+      "dutchKeywords": ["druk", "kracht", "oppervlakte", "pascal"]
+    },
+    {
+      "id": "dp-004",
+      "topic": "density-pressure",
+      "difficulty": 2,
+      "prompt": {
+        "en": "What is the pressure at a depth of 5 m in water? Use ρ = 1000 kg/m³, g = 10 m/s².",
+        "nl": "Wat is de druk op een diepte van 5 m in water? Gebruik ρ = 1000 kg/m³, g = 10 m/s²."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 50000,
+      "tolerance": { "absolute": 500 },
+      "unitOptions": ["Pa", "bar", "kPa", "atm"],
+      "correctUnit": "Pa",
+      "hints": [
+        { "en": "Hydrostatic pressure formula: P = ρgh", "nl": "Hydrostatische druk formule: P = ρgh" },
+        { "en": "Pressure increases with depth.", "nl": "Druk neemt toe met diepte." },
+        { "en": "P = 1000 × 10 × 5", "nl": "P = 1000 × 10 × 5" }
+      ],
+      "solutionSteps": [
+        { "en": "Hydrostatic pressure: P = ρgh", "nl": "Hydrostatische druk: P = ρgh" },
+        { "en": "Given: ρ = 1000 kg/m³, g = 10 m/s², h = 5 m", "nl": "Gegeven: ρ = 1000 kg/m³, g = 10 m/s², h = 5 m" },
+        { "en": "P = 1000 × 10 × 5 = 50,000 Pa", "nl": "P = 1000 × 10 × 5 = 50.000 Pa" },
+        { "en": "This equals 50 kPa or 0.5 bar", "nl": "Dit is gelijk aan 50 kPa of 0,5 bar" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting one of the three factors", "nl": "Een van de drie factoren vergeten" },
+        { "en": "Using wrong units for depth", "nl": "Verkeerde eenheden voor diepte gebruiken" },
+        { "en": "Not including atmospheric pressure (but question asks only for water pressure)", "nl": "Atmosferische druk niet meenemen (maar de vraag vraagt alleen naar waterdruk)" }
+      ],
+      "dutchKeywords": ["hydrostatische druk", "diepte", "vloeistofdruk"]
+    },
+    {
+      "id": "dp-005",
+      "topic": "density-pressure",
+      "difficulty": 2,
+      "prompt": {
+        "en": "An object floats in water with 80% of its volume submerged. What is its density? Water density = 1000 kg/m³.",
+        "nl": "Een voorwerp drijft in water met 80% van zijn volume onder water. Wat is de dichtheid? Dichtheid van water = 1000 kg/m³."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 800,
+      "tolerance": { "absolute": 10 },
+      "unitOptions": ["kg/m³", "g/cm³", "g/L", "kg/L"],
+      "correctUnit": "kg/m³",
+      "hints": [
+        { "en": "For floating objects, weight = buoyancy force.", "nl": "Voor drijvende voorwerpen geldt: gewicht = opwaartse kracht." },
+        { "en": "The fraction submerged equals the density ratio.", "nl": "De ondergedompelde fractie is gelijk aan de dichtheidsverhouding." },
+        { "en": "ρ_object/ρ_water = fraction submerged", "nl": "ρ_voorwerp/ρ_water = ondergedompelde fractie" }
+      ],
+      "solutionSteps": [
+        { "en": "For floating: buoyancy = weight", "nl": "Bij drijven: opwaartse kracht = gewicht" },
+        { "en": "Fraction submerged = ρ_object/ρ_fluid", "nl": "Ondergedompelde fractie = ρ_voorwerp/ρ_vloeistof" },
+        { "en": "0.80 = ρ_object/1000", "nl": "0,80 = ρ_voorwerp/1000" },
+        { "en": "ρ_object = 0.80 × 1000 = 800 kg/m³", "nl": "ρ_voorwerp = 0,80 × 1000 = 800 kg/m³" }
+      ],
+      "commonMistakes": [
+        { "en": "Using the unsubmerged fraction (20%)", "nl": "De niet-ondergedompelde fractie gebruiken (20%)" },
+        { "en": "Not understanding the relationship", "nl": "De relatie niet begrijpen" },
+        { "en": "Dividing instead of multiplying", "nl": "Delen in plaats van vermenigvuldigen" }
+      ],
+      "dutchKeywords": ["drijven", "opwaartse kracht", "Archimedes"]
+    },
+    {
+      "id": "dp-006",
+      "topic": "density-pressure",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Which has higher density: 1 kg of lead or 1 kg of feathers?",
+        "nl": "Wat heeft een hogere dichtheid: 1 kg lood of 1 kg veren?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Lead has higher density", "nl": "Lood heeft een hogere dichtheid" },
+        { "en": "Feathers have higher density", "nl": "Veren hebben een hogere dichtheid" },
+        { "en": "They have the same density", "nl": "Ze hebben dezelfde dichtheid" },
+        { "en": "Cannot determine without volume", "nl": "Kan niet bepalen zonder volume" }
+      ],
+      "correctAnswer": "Lead has higher density",
+      "hints": [
+        { "en": "Density depends on both mass and volume.", "nl": "Dichtheid hangt af van zowel massa als volume." },
+        { "en": "1 kg of each has the same mass.", "nl": "1 kg van elk heeft dezelfde massa." },
+        { "en": "Think about which takes up more space.", "nl": "Denk na over wat meer ruimte inneemt." }
+      ],
+      "solutionSteps": [
+        { "en": "Both have mass = 1 kg", "nl": "Beide hebben massa = 1 kg" },
+        { "en": "But 1 kg of feathers takes up much more volume than 1 kg of lead.", "nl": "Maar 1 kg veren neemt veel meer volume in dan 1 kg lood." },
+        { "en": "Density = mass/volume: same mass but smaller volume = higher density", "nl": "Dichtheid = massa/volume: zelfde massa maar kleiner volume = hogere dichtheid" },
+        { "en": "Lead has higher density (about 11,340 kg/m³ vs ~2.5 kg/m³ for feathers)", "nl": "Lood heeft een hogere dichtheid (ongeveer 11.340 kg/m³ vs ~2,5 kg/m³ voor veren)" }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking same mass means same density", "nl": "Denken dat dezelfde massa dezelfde dichtheid betekent" },
+        { "en": "Confusing mass with density", "nl": "Massa verwarren met dichtheid" }
+      ],
+      "dutchKeywords": ["lood", "veren", "massa vergelijken"]
+    },
+    {
+      "id": "dp-007",
+      "topic": "density-pressure",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A hydraulic press has a small piston (area 2 cm²) and large piston (area 50 cm²). If you apply 100 N to the small piston, what force is produced at the large piston?",
+        "nl": "Een hydraulische pers heeft een kleine zuiger (oppervlakte 2 cm²) en een grote zuiger (oppervlakte 50 cm²). Als je 100 N uitoefent op de kleine zuiger, welke kracht ontstaat er dan bij de grote zuiger?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 2500,
+      "tolerance": { "absolute": 50 },
+      "unitOptions": ["N", "Pa", "cm²", "kg"],
+      "correctUnit": "N",
+      "hints": [
+        { "en": "In hydraulics, pressure is transmitted equally.", "nl": "In hydraulica wordt druk gelijk overgedragen." },
+        { "en": "P₁ = P₂ means F₁/A₁ = F₂/A₂", "nl": "P₁ = P₂ betekent F₁/A₁ = F₂/A₂" },
+        { "en": "Rearrange to find F₂ = F₁ × (A₂/A₁)", "nl": "Herschrijf om F₂ = F₁ × (A₂/A₁) te vinden" }
+      ],
+      "solutionSteps": [
+        { "en": "Hydraulic principle: P₁ = P₂ → F₁/A₁ = F₂/A₂", "nl": "Hydraulisch principe: P₁ = P₂ → F₁/A₁ = F₂/A₂" },
+        { "en": "F₂ = F₁ × (A₂/A₁) = 100 × (50/2)", "nl": "F₂ = F₁ × (A₂/A₁) = 100 × (50/2)" },
+        { "en": "F₂ = 100 × 25 = 2500 N", "nl": "F₂ = 100 × 25 = 2500 N" },
+        { "en": "The force is multiplied by the area ratio!", "nl": "De kracht wordt vermenigvuldigd met de oppervlakteverhouding!" }
+      ],
+      "commonMistakes": [
+        { "en": "Dividing instead of multiplying by area ratio", "nl": "Delen in plaats van vermenigvuldigen met de oppervlakteverhouding" },
+        { "en": "Inverting the ratio", "nl": "De verhouding omdraaien" },
+        { "en": "Not understanding pressure transmission", "nl": "Drukoverdracht niet begrijpen" }
+      ],
+      "dutchKeywords": ["hydraulische pers", "drukoverdracht", "zuiger"]
+    },
+    {
+      "id": "dp-008",
+      "topic": "density-pressure",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A cube of metal has sides of 10 cm and mass 8 kg. What is its density in kg/m³?",
+        "nl": "Een metalen kubus heeft zijden van 10 cm en een massa van 8 kg. Wat is de dichtheid in kg/m³?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 8000,
+      "tolerance": { "absolute": 100 },
+      "unitOptions": ["kg/m³", "g/cm³", "kg/L", "g/L"],
+      "correctUnit": "kg/m³",
+      "hints": [
+        { "en": "First calculate volume: V = side³", "nl": "Bereken eerst het volume: V = zijde³" },
+        { "en": "Convert cm to m: 10 cm = 0.1 m", "nl": "Reken cm om naar m: 10 cm = 0,1 m" },
+        { "en": "Then use ρ = m/V", "nl": "Gebruik dan ρ = m/V" }
+      ],
+      "solutionSteps": [
+        { "en": "Side = 10 cm = 0.1 m", "nl": "Zijde = 10 cm = 0,1 m" },
+        { "en": "Volume: V = (0.1)³ = 0.001 m³", "nl": "Volume: V = (0,1)³ = 0,001 m³" },
+        { "en": "Density: ρ = m/V = 8 kg / 0.001 m³", "nl": "Dichtheid: ρ = m/V = 8 kg / 0,001 m³" },
+        { "en": "ρ = 8000 kg/m³", "nl": "ρ = 8000 kg/m³" }
+      ],
+      "commonMistakes": [
+        { "en": "Not converting cm to m correctly", "nl": "cm niet correct naar m omrekenen" },
+        { "en": "Cubing 10 instead of 0.1", "nl": "10 tot de derde macht nemen in plaats van 0,1" },
+        { "en": "Unit conversion errors", "nl": "Fouten bij het omrekenen van eenheden" }
+      ],
+      "dutchKeywords": ["kubus", "volume berekenen", "eenheden omrekenen"]
+    },
+    {
+      "id": "dp-009",
+      "topic": "density-pressure",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A steel ball (density 7800 kg/m³) is submerged in water. What fraction of its weight does it appear to lose? Water density = 1000 kg/m³.",
+        "nl": "Een stalen bal (dichtheid 7800 kg/m³) wordt ondergedompeld in water. Welke fractie van zijn gewicht lijkt hij te verliezen? Dichtheid van water = 1000 kg/m³."
+      },
+      "answerType": "numeric",
+      "correctAnswer": 0.128,
+      "tolerance": { "relative": 0.05 },
+      "unitOptions": ["(fraction)", "kg", "N", "%"],
+      "correctUnit": "(fraction)",
+      "hints": [
+        { "en": "The apparent weight loss equals the buoyancy force.", "nl": "Het schijnbare gewichtsverlies is gelijk aan de opwaartse kracht." },
+        { "en": "Buoyancy = weight of displaced water", "nl": "Opwaartse kracht = gewicht van het verplaatste water" },
+        { "en": "Fraction lost = ρ_water/ρ_steel", "nl": "Verloren fractie = ρ_water/ρ_staal" }
+      ],
+      "solutionSteps": [
+        { "en": "Buoyancy force = ρ_water × V × g", "nl": "Opwaartse kracht = ρ_water × V × g" },
+        { "en": "Weight of ball = ρ_steel × V × g", "nl": "Gewicht van bal = ρ_staal × V × g" },
+        { "en": "Fraction of weight lost = Buoyancy/Weight = ρ_water/ρ_steel", "nl": "Fractie van verloren gewicht = Opwaartse kracht/Gewicht = ρ_water/ρ_staal" },
+        { "en": "Fraction = 1000/7800 ≈ 0.128 (or about 12.8%)", "nl": "Fractie = 1000/7800 ≈ 0,128 (of ongeveer 12,8%)" }
+      ],
+      "commonMistakes": [
+        { "en": "Inverting the density ratio", "nl": "De dichtheidsverhouding omdraaien" },
+        { "en": "Not recognizing Archimedes' principle", "nl": "Het principe van Archimedes niet herkennen" },
+        { "en": "Calculating absolute values instead of fraction", "nl": "Absolute waarden berekenen in plaats van fractie" }
+      ],
+      "dutchKeywords": ["staal", "opwaartse kracht", "schijnbaar gewicht"]
+    },
+    {
+      "id": "dp-010",
+      "topic": "density-pressure",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Atmospheric pressure at sea level is approximately:",
+        "nl": "De atmosferische druk op zeeniveau is ongeveer:"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "100,000 Pa (1 bar)", "nl": "100.000 Pa (1 bar)" },
+        { "en": "10,000 Pa", "nl": "10.000 Pa" },
+        { "en": "1,000 Pa", "nl": "1.000 Pa" },
+        { "en": "1,000,000 Pa", "nl": "1.000.000 Pa" }
+      ],
+      "correctAnswer": "100,000 Pa (1 bar)",
+      "hints": [
+        { "en": "This is a standard value you should remember.", "nl": "Dit is een standaardwaarde die je moet onthouden." },
+        { "en": "It equals about 1 bar or 1 atm.", "nl": "Het is ongeveer gelijk aan 1 bar of 1 atm." },
+        { "en": "It's the pressure of Earth's atmosphere at sea level.", "nl": "Het is de druk van de aardatmosfeer op zeeniveau." }
+      ],
+      "solutionSteps": [
+        { "en": "Standard atmospheric pressure ≈ 101,325 Pa", "nl": "Standaard atmosferische druk ≈ 101.325 Pa" },
+        { "en": "This is often approximated as 100,000 Pa = 10⁵ Pa", "nl": "Dit wordt vaak benaderd als 100.000 Pa = 10⁵ Pa" },
+        { "en": "Also equals 1 bar or approximately 1 atmosphere (atm)", "nl": "Ook gelijk aan 1 bar of ongeveer 1 atmosfeer (atm)" },
+        { "en": "This pressure supports a 10 m column of water", "nl": "Deze druk ondersteunt een waterkolom van 10 m" }
+      ],
+      "commonMistakes": [
+        { "en": "Confusing with other pressure values", "nl": "Verwarren met andere drukwaarden" },
+        { "en": "Not knowing the standard value", "nl": "De standaardwaarde niet kennen" }
+      ],
+      "dutchKeywords": ["atmosferische druk", "luchtdruk", "zeeniveau"]
+    },
+    {
+      "id": "ec-001",
+      "topic": "circuits",
+      "difficulty": 1,
+      "prompt": {
+        "en": "What is the current in a circuit with a 12 V battery and a 4 Ω resistor?",
+        "nl": "Wat is de stroomsterkte in een circuit met een batterij van 12 V en een weerstand van 4 Ω?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 3,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["A", "V", "Ω", "W"],
+      "correctUnit": "A",
+      "hints": [
+        { "en": "Use Ohm's Law: V = IR", "nl": "Gebruik de wet van Ohm: V = IR" },
+        { "en": "Rearrange to find I: I = V/R", "nl": "Herschrijf om I te vinden: I = V/R" },
+        { "en": "I = 12/4", "nl": "I = 12/4" }
+      ],
+      "solutionSteps": [
+        { "en": "Ohm's Law: V = I × R", "nl": "Wet van Ohm: V = I × R" },
+        { "en": "Rearrange: I = V/R", "nl": "Herschrijf: I = V/R" },
+        { "en": "Given: V = 12 V, R = 4 Ω", "nl": "Gegeven: V = 12 V, R = 4 Ω" },
+        { "en": "I = 12/4 = 3 A", "nl": "I = 12/4 = 3 A" }
+      ],
+      "commonMistakes": [
+        { "en": "Multiplying instead of dividing", "nl": "Vermenigvuldigen in plaats van delen" },
+        { "en": "Inverting the formula", "nl": "De formule omdraaien" },
+        { "en": "Confusing current with voltage", "nl": "Stroom verwarren met spanning" }
+      ],
+      "dutchKeywords": ["stroom", "spanning", "weerstand", "Ohm"]
+    },
+    {
+      "id": "ec-002",
+      "topic": "circuits",
+      "difficulty": 1,
+      "prompt": {
+        "en": "Two 6 Ω resistors are connected in series. What is the total resistance?",
+        "nl": "Twee weerstanden van 6 Ω zijn in serie geschakeld. Wat is de totale weerstand?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 12,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["Ω", "A", "V", "W"],
+      "correctUnit": "Ω",
+      "hints": [
+        { "en": "In series, resistances add directly.", "nl": "In serie worden weerstanden direct opgeteld." },
+        { "en": "R_total = R₁ + R₂", "nl": "R_totaal = R₁ + R₂" },
+        { "en": "R_total = 6 + 6", "nl": "R_totaal = 6 + 6" }
+      ],
+      "solutionSteps": [
+        { "en": "For resistors in series: R_total = R₁ + R₂ + ...", "nl": "Voor weerstanden in serie: R_totaal = R₁ + R₂ + ..." },
+        { "en": "R_total = 6 Ω + 6 Ω = 12 Ω", "nl": "R_totaal = 6 Ω + 6 Ω = 12 Ω" },
+        { "en": "Series connection increases total resistance", "nl": "Serieschakeling verhoogt de totale weerstand" }
+      ],
+      "commonMistakes": [
+        { "en": "Using parallel formula instead", "nl": "De parallel formule gebruiken in plaats van serie" },
+        { "en": "Dividing instead of adding", "nl": "Delen in plaats van optellen" },
+        { "en": "Averaging the resistances", "nl": "De weerstanden middelen" }
+      ],
+      "dutchKeywords": ["serieschakeling", "weerstand optellen"]
+    },
+    {
+      "id": "ec-003",
+      "topic": "circuits",
+      "difficulty": 2,
+      "prompt": {
+        "en": "Two 6 Ω resistors are connected in parallel. What is the total resistance?",
+        "nl": "Twee weerstanden van 6 Ω zijn parallel geschakeld. Wat is de totale weerstand?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 3,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["Ω", "A", "V", "W"],
+      "correctUnit": "Ω",
+      "hints": [
+        { "en": "For parallel: 1/R_total = 1/R₁ + 1/R₂", "nl": "Voor parallel: 1/R_totaal = 1/R₁ + 1/R₂" },
+        { "en": "For two equal resistors: R_total = R/2", "nl": "Voor twee gelijke weerstanden: R_totaal = R/2" },
+        { "en": "R_total = 6/2", "nl": "R_totaal = 6/2" }
+      ],
+      "solutionSteps": [
+        { "en": "For parallel resistors: 1/R_total = 1/R₁ + 1/R₂", "nl": "Voor parallelle weerstanden: 1/R_totaal = 1/R₁ + 1/R₂" },
+        { "en": "1/R_total = 1/6 + 1/6 = 2/6 = 1/3", "nl": "1/R_totaal = 1/6 + 1/6 = 2/6 = 1/3" },
+        { "en": "R_total = 3 Ω", "nl": "R_totaal = 3 Ω" },
+        { "en": "Shortcut for equal resistors: R_total = R/n (n resistors in parallel)", "nl": "Snelle manier voor gelijke weerstanden: R_totaal = R/n (n weerstanden parallel)" }
+      ],
+      "commonMistakes": [
+        { "en": "Adding resistances (series method)", "nl": "Weerstanden optellen (seriemethode)" },
+        { "en": "Forgetting to take reciprocal at the end", "nl": "Vergeten de reciproke te nemen aan het eind" },
+        { "en": "Calculation errors with fractions", "nl": "Rekenfouten met breuken" }
+      ],
+      "dutchKeywords": ["parallelschakeling", "vervangingsweerstand"]
+    },
+    {
+      "id": "ec-004",
+      "topic": "circuits",
+      "difficulty": 2,
+      "prompt": {
+        "en": "A 60 W light bulb operates at 120 V. What current flows through it?",
+        "nl": "Een gloeilamp van 60 W werkt op 120 V. Welke stroom loopt erdoor?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 0.5,
+      "tolerance": { "absolute": 0.05 },
+      "unitOptions": ["A", "V", "W", "Ω"],
+      "correctUnit": "A",
+      "hints": [
+        { "en": "Power formula: P = V × I", "nl": "Vermogen formule: P = V × I" },
+        { "en": "Rearrange: I = P/V", "nl": "Herschrijf: I = P/V" },
+        { "en": "I = 60/120", "nl": "I = 60/120" }
+      ],
+      "solutionSteps": [
+        { "en": "Power: P = V × I", "nl": "Vermogen: P = V × I" },
+        { "en": "Rearrange: I = P/V", "nl": "Herschrijf: I = P/V" },
+        { "en": "I = 60 W / 120 V = 0.5 A", "nl": "I = 60 W / 120 V = 0,5 A" },
+        { "en": "The current is 0.5 Amperes (500 mA)", "nl": "De stroom is 0,5 Ampère (500 mA)" }
+      ],
+      "commonMistakes": [
+        { "en": "Multiplying instead of dividing", "nl": "Vermenigvuldigen in plaats van delen" },
+        { "en": "Using wrong power formula", "nl": "De verkeerde vermogen formule gebruiken" },
+        { "en": "Inverting the fraction", "nl": "De breuk omdraaien" }
+      ],
+      "dutchKeywords": ["vermogen", "gloeilamp", "stroomsterkte"]
+    },
+    {
+      "id": "ec-005",
+      "topic": "circuits",
+      "difficulty": 2,
+      "prompt": {
+        "en": "What is the power dissipated by a 10 Ω resistor with 2 A flowing through it?",
+        "nl": "Welk vermogen wordt gedissipeerd door een weerstand van 10 Ω waar 2 A doorheen stroomt?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 40,
+      "tolerance": { "absolute": 1 },
+      "unitOptions": ["W", "V", "A", "J"],
+      "correctUnit": "W",
+      "hints": [
+        { "en": "Use the power formula: P = I²R", "nl": "Gebruik de vermogen formule: P = I²R" },
+        { "en": "Or first find V, then use P = VI", "nl": "Of vind eerst V, gebruik dan P = VI" },
+        { "en": "P = 2² × 10", "nl": "P = 2² × 10" }
+      ],
+      "solutionSteps": [
+        { "en": "Power formula: P = I²R (or P = VI, or P = V²/R)", "nl": "Vermogen formule: P = I²R (of P = VI, of P = V²/R)" },
+        { "en": "Using P = I²R: P = (2 A)² × 10 Ω", "nl": "Met P = I²R: P = (2 A)² × 10 Ω" },
+        { "en": "P = 4 × 10 = 40 W", "nl": "P = 4 × 10 = 40 W" }
+      ],
+      "commonMistakes": [
+        { "en": "Forgetting to square the current", "nl": "Vergeten de stroom te kwadrateren" },
+        { "en": "Using P = IR instead of P = I²R", "nl": "P = IR gebruiken in plaats van P = I²R" },
+        { "en": "Confusing formulas", "nl": "Formules verwarren" }
+      ],
+      "dutchKeywords": ["vermogen", "dissipatie", "warmte"]
+    },
+    {
+      "id": "ec-006",
+      "topic": "circuits",
+      "difficulty": 1,
+      "prompt": {
+        "en": "In a series circuit, which quantity is the same through all components?",
+        "nl": "In een serieschakeling, welke grootheid is gelijk door alle componenten?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Current", "nl": "Stroomsterkte" },
+        { "en": "Voltage", "nl": "Spanning" },
+        { "en": "Resistance", "nl": "Weerstand" },
+        { "en": "Power", "nl": "Vermogen" }
+      ],
+      "correctAnswer": "Current",
+      "hints": [
+        { "en": "In series, there's only one path for current.", "nl": "In serie is er maar één pad voor de stroom." },
+        { "en": "Think about electrons flowing through the circuit.", "nl": "Denk aan elektronen die door het circuit stromen." },
+        { "en": "What must be conserved as charge flows through?", "nl": "Wat moet behouden blijven als lading doorstroomt?" }
+      ],
+      "solutionSteps": [
+        { "en": "In a series circuit, all components are on the same path.", "nl": "In een serieschakeling liggen alle componenten op hetzelfde pad." },
+        { "en": "Current (flow of charge) must be the same everywhere.", "nl": "Stroom (ladingsstroom) moet overal gelijk zijn." },
+        { "en": "Voltage divides among components.", "nl": "Spanning verdeelt zich over de componenten." },
+        { "en": "Each component can have different resistance and power.", "nl": "Elke component kan een andere weerstand en vermogen hebben." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking voltage is the same (that's parallel)", "nl": "Denken dat spanning gelijk is (dat is parallel)" },
+        { "en": "Confusing series and parallel properties", "nl": "Eigenschappen van serie en parallel verwarren" }
+      ],
+      "dutchKeywords": ["serieschakeling", "stroomsterkte", "gelijk"]
+    },
+    {
+      "id": "ec-007",
+      "topic": "circuits",
+      "difficulty": 2,
+      "prompt": {
+        "en": "In a parallel circuit, which quantity is the same across all branches?",
+        "nl": "In een parallelschakeling, welke grootheid is gelijk over alle takken?"
+      },
+      "answerType": "mcq",
+      "choices": [
+        { "en": "Voltage", "nl": "Spanning" },
+        { "en": "Current", "nl": "Stroomsterkte" },
+        { "en": "Resistance", "nl": "Weerstand" },
+        { "en": "Power", "nl": "Vermogen" }
+      ],
+      "correctAnswer": "Voltage",
+      "hints": [
+        { "en": "Parallel branches are connected to the same two points.", "nl": "Parallelle takken zijn verbonden met dezelfde twee punten." },
+        { "en": "The potential difference between those points is fixed.", "nl": "Het potentiaalverschil tussen die punten is vast." },
+        { "en": "Current can split into different branches.", "nl": "Stroom kan zich verdelen over verschillende takken." }
+      ],
+      "solutionSteps": [
+        { "en": "In parallel, all branches connect to the same two nodes.", "nl": "In parallel zijn alle takken verbonden met dezelfde twee knooppunten." },
+        { "en": "The voltage (potential difference) is the same across each branch.", "nl": "De spanning (potentiaalverschil) is gelijk over elke tak." },
+        { "en": "Current divides according to resistance (I = V/R).", "nl": "Stroom verdeelt zich volgens de weerstand (I = V/R)." },
+        { "en": "Total current = sum of branch currents.", "nl": "Totale stroom = som van takstromen." }
+      ],
+      "commonMistakes": [
+        { "en": "Thinking current is the same (that's series)", "nl": "Denken dat stroom gelijk is (dat is serie)" },
+        { "en": "Confusing series and parallel properties", "nl": "Eigenschappen van serie en parallel verwarren" }
+      ],
+      "dutchKeywords": ["parallelschakeling", "spanning", "vertakking"]
+    },
+    {
+      "id": "ec-008",
+      "topic": "circuits",
+      "difficulty": 3,
+      "prompt": {
+        "en": "A 9 V battery is connected to a 3 Ω and 6 Ω resistor in series. What is the voltage across the 6 Ω resistor?",
+        "nl": "Een batterij van 9 V is verbonden met een weerstand van 3 Ω en 6 Ω in serie. Wat is de spanning over de weerstand van 6 Ω?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 6,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["V", "A", "Ω", "W"],
+      "correctUnit": "V",
+      "hints": [
+        { "en": "First find total resistance and current.", "nl": "Vind eerst de totale weerstand en stroom." },
+        { "en": "Then use V = IR for each resistor.", "nl": "Gebruik dan V = IR voor elke weerstand." },
+        { "en": "Voltage divides in proportion to resistance.", "nl": "Spanning verdeelt zich evenredig met weerstand." }
+      ],
+      "solutionSteps": [
+        { "en": "Total R: R_total = 3 + 6 = 9 Ω", "nl": "Totale R: R_totaal = 3 + 6 = 9 Ω" },
+        { "en": "Current: I = V/R = 9/9 = 1 A", "nl": "Stroom: I = V/R = 9/9 = 1 A" },
+        { "en": "Voltage across 6 Ω: V₆ = I × R = 1 × 6 = 6 V", "nl": "Spanning over 6 Ω: V₆ = I × R = 1 × 6 = 6 V" },
+        { "en": "Check: V₃ = 1 × 3 = 3 V, and 3 + 6 = 9 V ✓", "nl": "Controle: V₃ = 1 × 3 = 3 V, en 3 + 6 = 9 V ✓" }
+      ],
+      "commonMistakes": [
+        { "en": "Using the battery voltage directly", "nl": "De batterijspanning direct gebruiken" },
+        { "en": "Not calculating current first", "nl": "Eerst de stroom niet berekenen" },
+        { "en": "Dividing voltage by resistance count", "nl": "Spanning delen door het aantal weerstanden" }
+      ],
+      "dutchKeywords": ["spanningsdeler", "serie", "deelspanning"]
+    },
+    {
+      "id": "ec-009",
+      "topic": "circuits",
+      "difficulty": 3,
+      "prompt": {
+        "en": "Three 12 Ω resistors are connected in parallel. What is the equivalent resistance?",
+        "nl": "Drie weerstanden van 12 Ω zijn parallel geschakeld. Wat is de vervangingsweerstand?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 4,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["Ω", "A", "V", "W"],
+      "correctUnit": "Ω",
+      "hints": [
+        { "en": "For n equal resistors in parallel: R_eq = R/n", "nl": "Voor n gelijke weerstanden parallel: R_v = R/n" },
+        { "en": "Or use 1/R_total = 1/R₁ + 1/R₂ + 1/R₃", "nl": "Of gebruik 1/R_totaal = 1/R₁ + 1/R₂ + 1/R₃" },
+        { "en": "R_eq = 12/3", "nl": "R_v = 12/3" }
+      ],
+      "solutionSteps": [
+        { "en": "For parallel: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃", "nl": "Voor parallel: 1/R_totaal = 1/R₁ + 1/R₂ + 1/R₃" },
+        { "en": "1/R_total = 1/12 + 1/12 + 1/12 = 3/12 = 1/4", "nl": "1/R_totaal = 1/12 + 1/12 + 1/12 = 3/12 = 1/4" },
+        { "en": "R_total = 4 Ω", "nl": "R_totaal = 4 Ω" },
+        { "en": "Shortcut for n equal resistors: R_eq = R/n = 12/3 = 4 Ω", "nl": "Snelle manier voor n gelijke weerstanden: R_v = R/n = 12/3 = 4 Ω" }
+      ],
+      "commonMistakes": [
+        { "en": "Adding resistances (series method)", "nl": "Weerstanden optellen (seriemethode)" },
+        { "en": "Multiplying by 3 instead of dividing", "nl": "Vermenigvuldigen met 3 in plaats van delen" },
+        { "en": "Errors with reciprocals", "nl": "Fouten met reciproken" }
+      ],
+      "dutchKeywords": ["parallel", "drie weerstanden", "vervangingsweerstand"]
+    },
+    {
+      "id": "ec-010",
+      "topic": "circuits",
+      "difficulty": 2,
+      "prompt": {
+        "en": "An electric heater uses 1800 W at 120 V. What is its resistance?",
+        "nl": "Een elektrische verwarming gebruikt 1800 W bij 120 V. Wat is de weerstand?"
+      },
+      "answerType": "numeric",
+      "correctAnswer": 8,
+      "tolerance": { "absolute": 0.1 },
+      "unitOptions": ["Ω", "A", "V", "W"],
+      "correctUnit": "Ω",
+      "hints": [
+        { "en": "Use P = V²/R rearranged for R", "nl": "Gebruik P = V²/R herschreven voor R" },
+        { "en": "R = V²/P", "nl": "R = V²/P" },
+        { "en": "R = 120²/1800", "nl": "R = 120²/1800" }
+      ],
+      "solutionSteps": [
+        { "en": "Power formula: P = V²/R", "nl": "Vermogen formule: P = V²/R" },
+        { "en": "Rearrange: R = V²/P", "nl": "Herschrijf: R = V²/P" },
+        { "en": "R = (120)²/1800 = 14400/1800", "nl": "R = (120)²/1800 = 14400/1800" },
+        { "en": "R = 8 Ω", "nl": "R = 8 Ω" }
+      ],
+      "commonMistakes": [
+        { "en": "Using wrong power formula", "nl": "De verkeerde vermogen formule gebruiken" },
+        { "en": "Not squaring the voltage", "nl": "De spanning niet kwadrateren" },
+        { "en": "Inverting the fraction", "nl": "De breuk omdraaien" }
+      ],
+      "dutchKeywords": ["verwarming", "vermogen", "weerstand berekenen"]
+    }
+  ]
+}
