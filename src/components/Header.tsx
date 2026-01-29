@@ -16,7 +16,7 @@ export default function Header() {
             {t('home.title')}
           </span>
           <span className="text-xs bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full">
-            VWO 3
+            VWO 3 &amp; 4
           </span>
         </Link>
 

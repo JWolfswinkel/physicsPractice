@@ -32,7 +32,7 @@ export const uiStrings: Record<Language, Record<string, string>> = {
 
     // Home page
     'home.title': 'Physics Practice',
-    'home.subtitle': 'Master VWO-3 physics with interactive practice and step-by-step explanations',
+    'home.subtitle': 'Master VWO physics with interactive practice and step-by-step explanations',
     'home.streak': 'Streak',
     'home.days': 'days',
     'home.overallAccuracy': 'Overall Accuracy',
@@ -192,8 +192,13 @@ export const uiStrings: Record<Language, Record<string, string>> = {
     'admin.saveChanges': 'Save Changes',
     'admin.create': 'Create Question',
 
+    // Level selector
+    'level.vwo3': 'VWO 3',
+    'level.vwo4': 'VWO 4',
+    'level.select': 'Select Level',
+
     // Footer
-    'footer.title': 'Physics Practice App for VWO-3 Students',
+    'footer.title': 'Physics Practice App for VWO Students',
     'footer.dutch': 'Dutch: Natuurkunde oefenprogramma',
 
     // Grading feedback
@@ -214,7 +219,7 @@ export const uiStrings: Record<Language, Record<string, string>> = {
 
     // Home page
     'home.title': 'Natuurkunde Oefenen',
-    'home.subtitle': 'Beheers VWO-3 natuurkunde met interactieve oefeningen en stapsgewijze uitleg',
+    'home.subtitle': 'Beheers VWO natuurkunde met interactieve oefeningen en stapsgewijze uitleg',
     'home.streak': 'Reeks',
     'home.days': 'dagen',
     'home.overallAccuracy': 'Totale Score',
@@ -374,8 +379,13 @@ export const uiStrings: Record<Language, Record<string, string>> = {
     'admin.saveChanges': 'Wijzigingen Opslaan',
     'admin.create': 'Vraag Maken',
 
+    // Level selector
+    'level.vwo3': 'VWO 3',
+    'level.vwo4': 'VWO 4',
+    'level.select': 'Kies Niveau',
+
     // Footer
-    'footer.title': 'Natuurkunde Oefenapp voor VWO-3 Leerlingen',
+    'footer.title': 'Natuurkunde Oefenapp voor VWO Leerlingen',
     'footer.dutch': 'English: Physics Practice App',
 
     // Grading feedback
@@ -415,6 +425,39 @@ export const topicNames: Record<string, { en: string; nl: string }> = {
     en: 'Electric Circuits',
     nl: 'Elektrische Schakelingen',
   },
+  // VWO-4 topics
+  'kinematics-2d': {
+    en: 'Kinematics 2D',
+    nl: 'Kinematica 2D',
+  },
+  'forces-dynamics': {
+    en: 'Forces & Dynamics',
+    nl: 'Krachten & Dynamica',
+  },
+  'work-energy-power': {
+    en: 'Work, Energy & Power',
+    nl: 'Arbeid, Energie & Vermogen',
+  },
+  'momentum-impulse': {
+    en: 'Momentum & Impulse',
+    nl: 'Impuls & Impulsmoment',
+  },
+  'circular-motion': {
+    en: 'Circular Motion & Gravitation',
+    nl: 'Cirkelbewegingen & Gravitatie',
+  },
+  'harmonic-motion': {
+    en: 'Simple Harmonic Motion',
+    nl: 'Harmonische Trillingen',
+  },
+  'dc-circuits': {
+    en: 'DC Circuits',
+    nl: 'Gelijkstroomschakelingen',
+  },
+  'fields-basics': {
+    en: 'Fields Basics',
+    nl: 'Velden – Basis',
+  },
 };
 
 // Topic descriptions in both languages
@@ -442,6 +485,39 @@ export const topicDescriptions: Record<string, { en: string; nl: string }> = {
   'circuits': {
     en: 'Analyze series and parallel circuits with resistors, voltage, and current.',
     nl: 'Analyseer serie- en parallelschakelingen met weerstanden, spanning en stroom.',
+  },
+  // VWO-4 topics
+  'kinematics-2d': {
+    en: 'Analyse motion in two dimensions using vector decomposition and relative motion.',
+    nl: 'Analyseer beweging in twee dimensies met vectorontbinding en relatieve snelheid.',
+  },
+  'forces-dynamics': {
+    en: 'Apply Newton\'s laws to inclined planes, friction problems and circular motion.',
+    nl: 'Pas de wetten van Newton toe op hellende vlakken, wrijving en cirkelbewegingen.',
+  },
+  'work-energy-power': {
+    en: 'Calculate work, energy conversions and efficiency in real-world systems.',
+    nl: 'Bereken arbeid, energieomzettingen en rendement in praktijksituaties.',
+  },
+  'momentum-impulse': {
+    en: 'Understand conservation of momentum, impulse and one-dimensional collisions.',
+    nl: 'Begrijp behoud van impuls, stoot en eendimensionale botsingen.',
+  },
+  'circular-motion': {
+    en: 'Study centripetal acceleration, centripetal force and Newton\'s law of gravitation.',
+    nl: 'Bestudeer centripetale versnelling, centripetale kracht en de gravitatiewet van Newton.',
+  },
+  'harmonic-motion': {
+    en: 'Explore oscillations, period, frequency and energy in mass-spring systems.',
+    nl: 'Verken trillingen, periode, frequentie en energie in massa-veersystemen.',
+  },
+  'dc-circuits': {
+    en: 'Analyse series and parallel circuits using Ohm\'s law and Kirchhoff\'s rules.',
+    nl: 'Analyseer serie- en parallelschakelingen met de wet van Ohm en de wetten van Kirchhoff.',
+  },
+  'fields-basics': {
+    en: 'Understand electric field strength, potential difference and field lines.',
+    nl: 'Begrijp elektrische veldsterkte, potentiaalverschil en veldlijnen.',
   },
 };
 

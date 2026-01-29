@@ -2,21 +2,30 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { TOPICS, TopicId, UserProgress } from '@/lib/types';
+import { TOPICS, TopicId, UserProgress, VwoLevel, getTopicsForLevel } from '@/lib/types';
 import { loadProgress, loadQuestions } from '@/lib/storage';
 import { calculateAccuracy } from '@/lib/grading';
 import { useLanguage, topicNames, topicDescriptions } from '@/lib/i18n';
 import { hasTutorial } from '@/data/tutorials';
+
+const LEVEL_STORAGE_KEY = 'physics-practice-level';
 
 export default function TopicsPage() {
   const { t, language } = useLanguage();
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [questionCounts, setQuestionCounts] = useState<Record<TopicId, number>>({} as Record<TopicId, number>);
   const [mounted, setMounted] = useState(false);
+  const [selectedLevel, setSelectedLevel] = useState<VwoLevel>(3);
 
   useEffect(() => {
     setMounted(true);
     setProgress(loadProgress());
+
+    // Restore saved level
+    const savedLevel = localStorage.getItem(LEVEL_STORAGE_KEY);
+    if (savedLevel === '3' || savedLevel === '4') {
+      setSelectedLevel(Number(savedLevel) as VwoLevel);
+    }
 
     // Count questions per topic
     const questions = loadQuestions();
@@ -26,6 +35,11 @@ export default function TopicsPage() {
     }
     setQuestionCounts(counts);
   }, []);
+
+  const handleLevelChange = (level: VwoLevel) => {
+    setSelectedLevel(level);
+    localStorage.setItem(LEVEL_STORAGE_KEY, String(level));
+  };
 
   if (!mounted) {
     return (
@@ -40,6 +54,8 @@ export default function TopicsPage() {
     );
   }
 
+  const filteredTopics = getTopicsForLevel(selectedLevel);
+
   return (
     <div className="space-y-6">
       <div>
@@ -49,8 +65,25 @@ export default function TopicsPage() {
         </p>
       </div>
 
+      {/* Level Tabs */}
+      <div className="flex gap-2">
+        {([3, 4] as VwoLevel[]).map((level) => (
+          <button
+            key={level}
+            onClick={() => handleLevelChange(level)}
+            className={`px-5 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+              selectedLevel === level
+                ? 'bg-primary-600 text-white shadow-md'
+                : 'bg-white text-slate-600 border border-slate-200 hover:border-primary-300 hover:text-primary-600'
+            }`}
+          >
+            {t(`level.vwo${level}`)}
+          </button>
+        ))}
+      </div>
+
       <div className="grid gap-4">
-        {TOPICS.map((topic) => {
+        {filteredTopics.map((topic) => {
           const stats = progress?.topicStats[topic.id];
           const accuracy = stats && stats.totalAttempts > 0
             ? calculateAccuracy(stats.correctAttempts, stats.totalAttempts)

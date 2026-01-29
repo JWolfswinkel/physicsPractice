@@ -40,6 +40,14 @@ export function loadProgress(): UserProgress {
       'motion-graphs',
       'density-pressure',
       'circuits',
+      'kinematics-2d',
+      'forces-dynamics',
+      'work-energy-power',
+      'momentum-impulse',
+      'circular-motion',
+      'harmonic-motion',
+      'dc-circuits',
+      'fields-basics',
     ];
 
     for (const topicId of topicIds) {
@@ -267,6 +275,14 @@ export function getRecommendedTopic(): TopicId | null {
     'motion-graphs',
     'density-pressure',
     'circuits',
+    'kinematics-2d',
+    'forces-dynamics',
+    'work-energy-power',
+    'momentum-impulse',
+    'circular-motion',
+    'harmonic-motion',
+    'dc-circuits',
+    'fields-basics',
   ];
 
   // Find topic with lowest accuracy that has been attempted

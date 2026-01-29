@@ -8,9 +8,9 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Physics Practice - VWO 3',
-  description: 'Practice physics at VWO-3 level with step-by-step explanations',
-  keywords: ['physics', 'VWO', 'practice', 'natuurkunde', 'oefenen'],
+  title: 'Physics Practice - VWO 3 & 4',
+  description: 'Practice physics at VWO-3 and VWO-4 level with step-by-step explanations',
+  keywords: ['physics', 'VWO', 'VWO-3', 'VWO-4', 'practice', 'natuurkunde', 'oefenen'],
 };
 
 export default function RootLayout({

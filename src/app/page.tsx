@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { TOPICS, TopicId, UserProgress, LocalisedString } from '@/lib/types';
+import { TOPICS, TopicId, UserProgress, LocalisedString, VwoLevel, getTopicsForLevel } from '@/lib/types';
 import { loadProgress, getRecommendedTopic, getRecentMistakes } from '@/lib/storage';
 import { calculateAccuracy } from '@/lib/grading';
 import { useLanguage, topicNames } from '@/lib/i18n';
@@ -18,11 +18,16 @@ export default function HomePage() {
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [recommendedTopic, setRecommendedTopic] = useState<TopicId | null>(null);
   const [mounted, setMounted] = useState(false);
+  const [selectedLevel, setSelectedLevel] = useState<VwoLevel>(3);
 
   useEffect(() => {
     setMounted(true);
     setProgress(loadProgress());
     setRecommendedTopic(getRecommendedTopic());
+    const savedLevel = localStorage.getItem('physics-practice-level');
+    if (savedLevel === '3' || savedLevel === '4') {
+      setSelectedLevel(Number(savedLevel) as VwoLevel);
+    }
   }, []);
 
   if (!mounted) {
@@ -122,9 +127,29 @@ export default function HomePage() {
 
       {/* Topics Grid */}
       <section>
-        <h2 className="text-lg font-semibold text-slate-800 mb-4">{t('home.topics')}</h2>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-lg font-semibold text-slate-800">{t('home.topics')}</h2>
+          <div className="flex gap-1">
+            {([3, 4] as VwoLevel[]).map((level) => (
+              <button
+                key={level}
+                onClick={() => {
+                  setSelectedLevel(level);
+                  localStorage.setItem('physics-practice-level', String(level));
+                }}
+                className={`px-3 py-1 rounded text-xs font-medium transition-colors ${
+                  selectedLevel === level
+                    ? 'bg-primary-600 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                {t(`level.vwo${level}`)}
+              </button>
+            ))}
+          </div>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {TOPICS.map((topic) => {
+          {getTopicsForLevel(selectedLevel).map((topic) => {
             const stats = progress?.topicStats[topic.id];
             const accuracy = stats && stats.totalAttempts > 0
               ? calculateAccuracy(stats.correctAttempts, stats.totalAttempts)
